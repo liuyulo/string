@@ -2,8 +2,7 @@
 % \LoadClass[handout]{beamer}
 \LoadClass{beamer}
 
-% \setbeameroption{show notes on second screen=right}
-% \setbeameroption{show only notes}
+\setbeameroption{show notes on second screen=right}
 
 \setbeamercolor{frame number in head/foot}{fg=black}
 \setbeamerfont{frame number in head/foot}{size=\small}
