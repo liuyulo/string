@@ -1,6 +1,5 @@
 \section{Moves}
 \subsection{Twist}
-\newcommand\g[2][0.2]{\raisebox{-0.45\height}{\includegraphics[width=#1\columnwidth]{#2}}}
 
 \begin{frame}{\secname: \subsecname}
 \pause Two variations: twist towards and twist away
@@ -21,11 +20,11 @@
 \end{itemize}
 \pause $\ldots:[Ff]F[Fn]:\ldots\implies$ crossing parities are reversed
 
-\note[item]{Storer p382}
-\note[item]{works on right hand too}
-
 \end{frame}
-
+\note[itemize]{
+\item works on right hand too
+\item Storer p382
+}
 
 
 \subsection{Pick}
@@ -47,14 +46,11 @@ Finger $F$ picks a string segment $s$
 \begin{itemize}[<+(1)->]
     \item "$R5$ passes \emph{over} all intermediate segments and picks $Lp$ from \emph{above}" is denoted  as $\overset\Longleftarrow{R5}(\overline{Lp})$
     \item "$R1$ passes \emph{over} all intermediate segments and picks $R5n$ from \emph{below}" is denoted as $\overrightarrow{R1}(\underline{R5n})$
+    \note<.(1)>[item]{the first 2 moves makes the star}
     \item "$R4$ passes \emph{below} all intermediate segments and picks $L1n$ from \emph{below}" is denoted as $\overset\Longleftarrow{R4}(\underline{L1n})$
+    \note<.(1)>[item]{pick moves can be really hard to perform in reality, e.g. apply 3rd one after 1 and 2}
 \end{itemize}
-
-\note[item]{the first 2 moves makes the star}
-\note[item]{pick moves can be really hard to perform in reality, e.g. apply 3rd one after 1 and 2}
-
 \end{frame}
-
 
 \begin{frame}{\subsecname: Examples}
 \begin{adjustwidth}{-2em}{-2em}
@@ -74,11 +70,13 @@ Finger $F$ picks a string segment $s$
 \end{minipage}
 \end{adjustwidth}
 
-\note[item]{when $F$ moves towards, the new twist is a twist towards}
-\note[item]{when $F$ moves away, the new twist is away, e.g. $L5:R5$ and pick with $R1$}
 
 \end{frame}
 
+\note[itemize]{
+\item when $F$ moves towards, the new twist is a twist towards
+\item when $F$ moves away, the new twist is away, e.g. $L5:R5$ and pick with $R1$
+}
 
 
 \begin{frame}{\subsecname: Construction}
@@ -94,10 +92,9 @@ General steps for $F(s)$
 \uncover<3->{$\mapsto$\g[0.27]{figures/star-pick}}
 \uncover<5->{$\mapsto$\g[0.27]{figures/star-pick-twist}}
 
-\note[item]{note that we can check if a move is valid since we know how to identify all the segments in a seq}
+\note<1>[item]{note that we can check if a move is valid since we know how to identify all the segments in a seq}
 
 \end{frame}
-
 
 \newcommand\name{\subsecname: Construction Example}
 \begin{frame}{\name}
@@ -123,6 +120,7 @@ $L1:L5:R2\enspace\xmapsto{\overset\Longleftarrow{R5}(\overline{Lp})}\enspace???$
 \pause Found $[L5f]:[R2f]$ as an intermediate segment
 \begin{itemize}
     \item\pause Insert crossings $x_1$ and $x_2$
+    \note<4>[item]{under because our finger is going above}
     $$\begin{tikzpicture}
         \node<+> at(0,0){$L1:L5{\color{red}[L5f]:[R2f]}R2[R2n]$};
         \node<+> at(0,0){$L1:L5{\color{red}[L5f]:x_1(u):x_2(u):[R2f]}R2[R2n]$};
@@ -147,12 +145,7 @@ $$\begin{tikzpicture}
     \node<+> at(0,0){$L1:x_2(o):{\color{red}x_3(o):R5:x_3(u)}:x_1(o):L5:x_1(u):x_2(u):R2$};
     \node<+> at(0,0){$L1:x_2(o):{x_3(o):R5:x_3(u)}:x_1(o):L5:x_1(u):x_2(u):R2$};
 \end{tikzpicture}$$
-
-\note[item]{(2) under because our finger is going above}
-
 \end{frame}
-
-
 
 \begin{frame}{\name}
 $$\scriptstyle

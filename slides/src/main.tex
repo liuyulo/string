@@ -1,21 +1,23 @@
 \documentclass{beamer}
 
 \setbeameroption{show notes on second screen=right}
-
 \setbeamercolor{frame number in head/foot}{fg=black}
 \setbeamerfont{frame number in head/foot}{size=\small}
+\setbeamertemplate{note page}[plain]
 \setbeamertemplate{navigation symbols}{}
 \setbeamertemplate{footline}[frame number]
 
 \input{preamble}
 
 \graphicspath{{figures/}}
+\newcommand\g[2][0.2]{\raisebox{-0.45\height}{\includegraphics[width=#1\columnwidth]{#2}}}
 
 \title{A Computational Approach to String Figures}
 \date{2023-11-29}
 \author{Yulong Liu}
 \begin{document}
 \maketitle
+
 
 \include{sections/01-string}
 \include{sections/02-repr}
