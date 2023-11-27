@@ -1,5 +1,5 @@
 ---
-import { CW, ap, fr, fw, sw, ttd } from "../../components/consts";
+import { CW, ap, fr, fw, sw, ttd, type Finger, Orientation } from "../../components/consts";
 import { L3, R3 } from "../../components/fingers";
 import { arcs2paths, fingers2arcs } from "../../components/math";
 
@@ -9,7 +9,7 @@ import Layout from "../../layouts/Layout.astro";
 const fingers = [
     [L3, CW],
     [R3, CW],
-];
+] as [Finger,Orientation][];
 
 const arcs = fingers2arcs(fingers);
 const paths = arcs2paths(fingers, arcs);
