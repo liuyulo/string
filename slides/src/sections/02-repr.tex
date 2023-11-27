@@ -25,14 +25,14 @@ Fingers are named $L1,\cdots, L5$ and $R1,\cdots,R5$ from thumb to pinky
 \def\svgwidth{0.5\columnwidth}
 \input{figures/open.pdf_tex}
 \end{figure}
+
+\note[item]{ (eg) top down view}
+\note[item]{ (palmar) when we have a string between $L1$ and $L5$, we give a special name, called palmar string}
+\note[item]{ the diagrams are intuitive and very visual, but they are less computer friendly}
+\note[item]{ what do computers like? they like array of symbols}
+
 \end{frame}
 
-\note[itemize]{
-    \item (eg) top down view
-    \item (palmar) when we have a string between $L1$ and $L5$, we give a special name, called palmar string
-    \item the diagrams are intuitive and very visual, but they are less computer friendly
-    \item what do computers like? they like array of symbols
-}
 
 \subsection{Linear Sequences}
 \begin{frame}{\secname: \subsecname}
@@ -55,12 +55,10 @@ $$\begin{tikzpicture}
     \node[shift={(120pt,0)}] at(0,0){$\mapsto$};
     \node[shift={(170pt,0)}] at(0,0){$L1:L5:R2$};
 \end{tikzpicture}$$
+\note[item]{travel along the string clockwise}
+\note[item]{note down the fingers and crossings with parity}
 \end{frame}
 
-\note[itemize]{
-\item travel along the string clockwise
-\item note down the fingers and crossings with parity
-}
 
 \begin{frame}{Linear Sequences with Crossings}
 Diagram $\to$ linear sequence
@@ -80,15 +78,16 @@ $$
 \scriptstyle
 L1:x_1(o):x_2(o):R5:x_3(o):x_4(o):R1:x_5(o):x_1(u):L5:x_2(u):x_3(u):R2:x_4(u):x_5(u)
 $$
+
+\note[item]{if we have $n$ fingers holding the string figure that has $m$ crossings, the sequence will have $n+2m$ symbols}
+\note[item]{in most string figures, having a lot of crossings is what makes them beautiful, and it would be tedious to write down the entire sequence by hand}
+\note[item]{(you see that i cant even fit the linear sequence of this simple star with normal size font)}
+\note[item]{so this gives us more motivation to develop a systematic way of computing the movements so we can let computer do the calculuation}
+\note[item]{the most common movements involve a finger and sometimes a near/far string segment of some other finger, but the problem arises in identifying these segments from the sequence}
+
 \end{frame}
 
-\note[itemize]{
-\item if we have $n$ fingers holding the string figure that has $m$ crossings, the sequence will have $n+2m$ symbols
-\item in most string figures, having a lot of crossings is what makes them beautiful, and it would be tedious to write down the entire sequence by hand
-\item (you see that i cant even fit the linear sequence of this simple star with normal size font)
-\item so this gives us more motivation to develop a systematic way of computing the movements so we can let computer do the calculuation
-\item the most common movements involve a finger and sometimes a near/far string segment of some other finger, but the problem arises in identifying these segments from the sequence
-}
+
 
 \subsection{Identifying String Segments }
 
@@ -199,10 +198,10 @@ $$
 \end{center}
 }
 \only<12>{todo erase table, show string figure}
+
+\note[item]{now that we can recover the string segments from the linear sequence}
+\note[item]{when we want to pick a specific string segment, we know where it is in the linear sequence}
+\note[item]{"use a finger to pick some segment" is essentially insert the finger to where the segment is in the linear sequence along with some crossings if needed}
+
 \end{frame}
 
-\note[itemize]{
-\item now that we can recover the string segments from the linear sequence
-\item when we want to pick a specific string segment, we know where it is in the linear sequence
-\item "use a finger to pick some segment" is essentially insert the finger to where the segment is in the linear sequence along with some crossings if needed
-}
