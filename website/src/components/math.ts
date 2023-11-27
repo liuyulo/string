@@ -42,14 +42,15 @@ export function fingers2arcs(fingers: [Finger, Orientation][]): Line[] {
     )
 }
 
-export function arcs2paths(fingers: [Finger, Orientation][], arcs: Line[]): string[] {
+export function arcs2paths(fingers: [Finger, Orientation][], arcs: Line[], larges: boolean[] = []): string[] {
     return arcs.map(({ x1, y1, x2, y2 }, i) => {
         const j = (i + 1) % arcs.length;
         const [{ cx }, n] = fingers[j];
         const { x1: x, y1: y } = arcs[j];
         const [xx2, xx3, ccx] = [x2, x, cx].map((r) => Math.abs(r - R));
         const large = xx2 <= ccx && xx3 <= ccx;
+        const l = larges[i] ? !large : large;
         const sweep = +(n == -1);
-        return `M${x1} ${y1} L${x2} ${y2} A${ar} ${ar} 0 ${+large} ${sweep} ${x} ${y}`;
+        return `M${x1} ${y1} L${x2} ${y2} A${ar} ${ar} 0 ${+l} ${sweep} ${x} ${y}`;
     })
 }

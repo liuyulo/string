@@ -1,0 +1,67 @@
+---
+import {
+    CCW,
+    CW,
+    Orientation,
+    ap,
+    fr,
+    fw,
+    sw,
+    type Finger,
+} from "../components/consts";
+import { L3, R3 as R } from "../components/fingers";
+import { arcs2paths, fingers2arcs } from "../components/math";
+
+import Svg from "../components/Svg.astro";
+import Layout from "../layouts/Layout.astro";
+const R3 = { ...R, cx: R.cx - 400 };
+const cy = 300;
+const figures = [
+{
+        fingers: [
+            [L3, CW],
+            [R3, CW],
+            [{ cx: (L3.cx + R3.cx) / 2, cy }, CCW],
+        ],
+    },
+    {
+        fingers: [
+            [L3, CW],
+            [{ cx: (L3.cx + R3.cx) / 2, cy }, CCW],
+            [R3, CW],
+        ],
+        larges: [true, false, false],
+    },
+];
+// @ts-ignore
+const arcss = figures.map(({ fingers }) => fingers2arcs(fingers));
+// @ts-ignore
+const pathss = figures.map(({ fingers, larges }, i) => arcs2paths(fingers, arcss[i], larges));
+const [x, y, width, height] = [0, cy-60, 740, cy-30];
+---
+
+<Layout title="extension">
+    {pathss.map((paths, i) => (
+    <Svg
+        viewBox={`${x} ${y} ${width} ${height}`}
+        {width}
+        {height}
+        fill="none"
+    >
+        {
+            // draw strings
+            paths.map((path) => (
+                <>
+                    <path d={path} stroke="white" stroke-width={fw + ap} />
+                    <path d={path} stroke="red" stroke-width={sw} />
+                </>
+            ))
+        }
+        {
+            // draw fingers
+            [L3, R3].map(({ cx, cy }) => (
+                <circle stroke="black" {cx} {cy} r={fr} stroke-width={fw} />
+            ))
+        }
+    </Svg>))}
+</Layout>
