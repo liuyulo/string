@@ -44,22 +44,28 @@ jobs:
         run: bun run build
         working-directory: ${{ env.BUILD_PATH }}
 
-      - name: Install Tectonic
-        run: curl --proto '=https' --tlsv1.2 -fsSL https://drop-sh.fullyjustified.net | sh
-        working-directory: /usr/local/bin
-      - name: Cache Tectonic packages
-        if: steps.graphics.outputs.cache-hit != 'true'
-        uses: actions/cache@v3
-        id: tectonic
+      - uses: dante-ev/latex-action@latest
         with:
-          path: ~/.cache/Tectonic
-          key: Tectonic-${{ hashFiles('dist/**/.tex') }}
-          restore-keys: Tectonic-
-      - name: Build Slides
-        run: tectonic -X build
-        working-directory: ./slides
-      - name: Copy PDF files
-        run: find -name '*.pdf' | xargs -t -If mv f ${{ env.BUILD_PATH }}/dist
+          root_file: ./slides/src/main.tex
+          compiler: lualatex
+          args: -interaction=nonstopmode -shell-escape
+
+      # - name: Install Tectonic
+      #   run: curl --proto '=https' --tlsv1.2 -fsSL https://drop-sh.fullyjustified.net | sh
+      #   working-directory: /usr/local/bin
+      # - name: Cache Tectonic packages
+      #   if: steps.graphics.outputs.cache-hit != 'true'
+      #   uses: actions/cache@v3
+      #   id: tectonic
+      #   with:
+      #     path: ~/.cache/Tectonic
+      #     key: Tectonic-${{ hashFiles('dist/**/.tex') }}
+      #     restore-keys: Tectonic-
+      # - name: Build Slides
+      #   run: tectonic -X build
+      #   working-directory: ./slides
+      # - name: Copy PDF files
+      #   run: find -name '*.pdf' | xargs -t -If mv f ${{ env.BUILD_PATH }}/dist
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
