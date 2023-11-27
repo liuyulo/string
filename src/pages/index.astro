@@ -1,0 +1,15 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const astros = (await Astro.glob("/src/pages/**/*.astro"));
+---
+
+<Layout title="Welcome to Astro.">
+	<ul>
+		{astros.map((astro) => (
+			<li>
+				<a href={astro.url}><code>{astro.url}</code></a>
+			</li>
+		))}
+	</ul>
+</Layout>

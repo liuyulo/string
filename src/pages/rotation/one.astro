@@ -1,0 +1,68 @@
+---
+import { CW, ap, fr, fw, sw, ttd } from "../../components/consts";
+import { L3, R3 } from "../../components/fingers";
+import { arcs2paths, fingers2arcs } from "../../components/math";
+
+import Svg from "../../components/Svg.astro";
+import Layout from "../../layouts/Layout.astro";
+
+const fingers = [
+    [L3, CW],
+    [R3, CW],
+];
+
+const arcs = fingers2arcs(fingers);
+const paths = arcs2paths(fingers, arcs);
+const s = 4; // scale
+const arrows = [
+    "M12.5 8c-2.65 0-5.05.99-6.9 2.6L3.71 8.71C3.08 8.08 2 8.52 2 9.41V15c0 .55.45 1 1 1h5.59c.89 0 1.34-1.08.71-1.71l-1.91-1.91c1.39-1.16 3.16-1.88 5.12-1.88 3.16 0 5.89 1.84 7.19 4.5.27.56.91.84 1.5.64.71-.23 1.07-1.04.75-1.72C20.23 10.42 16.65 8 12.5 8z",
+    "M18.4 10.6C16.55 8.99 14.15 8 11.5 8c-4.16 0-7.74 2.42-9.44 5.93-.32.67.04 1.47.75 1.71.59.2 1.23-.08 1.5-.64 1.3-2.66 4.03-4.5 7.19-4.5 1.95 0 3.73.72 5.12 1.88l-1.91 1.91c-.63.63-.19 1.71.7 1.71H21c.55 0 1-.45 1-1V9.41c0-.89-1.08-1.34-1.71-.71l-1.89 1.9z",
+];
+const dimensions = [
+    [-ttd / 2, 325, 300, 225],
+    [907, 325, 300, 225],
+];
+// const [x, y, w, h] = [-ttd / 2, 325, D + ttd * 1.25, 225];
+---
+
+<Layout title="segments">
+    {
+        dimensions.flatMap(([x,y,width,height]) => arrows.map(d => <Svg
+        viewBox={`${x} ${y} ${width} ${height}`}
+        {width}
+        {height}
+    >
+        <g fill="none">
+            {
+                // draw strings
+                paths.map((path) => (
+                    <>
+                        <path d={path} stroke="white" stroke-width={fw + ap} />
+                        <path d={path} stroke="red" stroke-width={sw} />
+                    </>
+                ))
+            }
+            {
+                // draw fingers
+                [L3, R3].map(({ cx, cy }) => (
+                    <circle stroke="black" {cx} {cy} r={fr} stroke-width={fw} />
+                ))
+            }
+        </g>
+        <g fill="black" stroke-width="0" text-anchor="middle">
+            <text x={L3.cx + 70} y={L3.cy - 60}>L f</text>
+            <text x={L3.cx + 75} y={L3.cy - 55} style="font-size: 2em">i</text>
+            <text x={L3.cx + 70} y={L3.cy + 90}>L n</text>
+            <text x={L3.cx + 70} y={L3.cy + 95} style="font-size: 2em">i</text>
+            <text x={R3.cx - 70} y={R3.cy - 60}>R f</text>
+            <text x={R3.cx - 62} y={R3.cy - 55} style="font-size: 2em">i</text>
+            <text x={R3.cx - 70} y={R3.cy + 90}>R n</text>
+            <text x={R3.cx - 68} y={R3.cy + 95} style="font-size: 2em">i</text>
+        </g>
+        <g transform={`scale(${s})`}>
+            <path transform={`translate(-20,${L3.cy / s + 12}) rotate(-90)`} {d}/>
+            <path transform={`translate(${R3.cx / s + 40},${L3.cy / s - 12}) rotate(90)`}{d}/>
+        </g>
+    </Svg>))
+    }
+</Layout>

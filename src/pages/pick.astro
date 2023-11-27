@@ -1,0 +1,111 @@
+---
+import { CCW, CW, D, ap, background, fr, fw, stroke, sw, ttd } from "../components/consts";
+import { L1, R1 as Ra, R5 as Rb, fingers } from "../components/fingers";
+
+import Svg from "../components/Svg.astro";
+import { arcs2paths, fingers2arcs } from "../components/math";
+import Layout from "../layouts/Layout.astro";
+
+const dy = 400;
+const dx= -400;
+const R1 = { ...Ra, x: Ra.x + dx, cx: Ra.cx + dx};
+const R5 = { ...Rb, x: Rb.x + dx, cx: Rb.cx + dx, cy: Rb.cy + dy, y: Rb.y + dy };
+const figures = [
+    {
+        fingers: [
+            [R1, CW],
+            [L1, CW],
+        ],
+    },
+    {
+        fingers: [
+            [R1, CW],
+            [R5, CW],
+            [L1, CW],
+        ],
+        larges: [true, false, true],
+    },
+    {
+        fingers: [
+            [R1, CW],
+            [R5, CCW],
+            [L1, CW],
+        ],
+        larges: [false, false, true],
+    },
+    {
+        fingers: [
+            [L1, CW],
+            [R1, CW],
+            [R5, CCW],
+        ],
+        larges: [true, true, false],
+    },
+    {
+        fingers: [
+            [L1, CW],
+            [R1, CW],
+            [R5, CW],
+        ],
+        larges: [true, true, false],
+    },
+];
+// @ts-ignore
+const arcss = figures.map(({ fingers }) => fingers2arcs(fingers));
+// @ts-ignore
+const pathss = figures.map(({ fingers }, i) => arcs2paths(fingers, arcss[i]));
+
+for (const { larges, i } of figures.map(({ larges = [] }, i) => ({
+    larges,
+    i,
+}))) {
+    const paths = pathss[i];
+    for (const j of larges.flatMap((b, i) => (b ? [i] : []))) {
+        if (paths[j].includes("0 0 1")) {
+            paths[j] = paths[j].replace("0 0 1", "0 1 1");
+        } else {
+            paths[j] = paths[j].replace("0 1 1", "0 0 1");
+        }
+    }
+}
+const [x, y, width, height] = [80, 490, 580, 540];
+---
+
+<Layout title="segments">
+    {
+        pathss.map((paths) => (
+            <Svg
+                viewBox={`${x} ${y} ${width} ${height}`}
+                {width}
+                {height}
+                fill="none"
+            >
+                {
+                    // draw strings
+                    paths.map((path) => (
+                        <path
+                            d={path}
+                            stroke={background}
+                            stroke-width={fw + ap}
+                        />
+                        <path d={path} stroke="red" stroke-width={sw} />
+                    ))
+                }
+                {
+                    // draw fingers
+                    [L1,R1,R5].map(({cx,cy}) => (
+                        <circle {cx} {cy} r={fr} stroke-width={fw} stroke="black" />
+                    ))
+                }
+                {
+                    // draw finger numbers
+                    [L1,R1,R5].map(({cy,x,name}, i) => (
+                    <text x={x+(2*(!!i)-1)*20} y={cy+15}  fill={stroke} stroke-width="0" text-anchor="middle">
+                        {name}
+                    </text>
+                    ))
+                }
+            </Svg>
+        ))
+    }
+</Layout>

@@ -1,0 +1,11 @@
+---
+import Figure from "../components/Figure.astro";
+import * as figures from "../components/figures";
+
+---
+
+{
+    Object.entries(figures).map(([name, figure]) => (
+        <Figure {figure} />
+    ))
+}

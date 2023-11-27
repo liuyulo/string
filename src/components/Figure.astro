@@ -1,0 +1,79 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Svg from "./Svg.astro";
+
+import type { Figure } from "./consts";
+import { D, ap, background, fr, fw, stroke, sw, ttd } from "./consts";
+import { R5 } from "./fingers";
+import { arcs2paths, fingers2arcs } from "./math";
+
+export interface Props {
+    figure: Figure;
+    larges?: boolean[]; // manually change large arcs, true means manually change
+}
+const {
+    figure: { fingers, crossings },
+    larges = [],
+} = Astro.props;
+
+const arcs = fingers2arcs(fingers);
+const paths = arcs2paths(fingers, arcs);
+for (const i of larges.flatMap((b, i) => (b ? [i] : []))) {
+    if (paths[i].includes("0 0 1")) {
+        paths[i] = paths[i].replace("0 0 1", "0 1 1");
+    } else {
+        paths[i] = paths[i].replace("0 1 1", "0 0 1");
+    }
+}
+---
+
+<Layout title="figure">
+    <Svg
+        width={D}
+        height={D}
+        viewBox={`${-ttd} 0 ${D + 2 * ttd} ${D}`}
+        fill="none"
+    >
+        {
+            // draw strings
+            paths.map((path) => (
+                <>
+                    <path d={path} stroke={background} stroke-width={fw + ap} />
+                    <path d={path} stroke="red" stroke-width={sw} />
+                </>
+            ))
+        }
+        {
+            // draw fingers
+            fingers.map(([{ cx, cy }, _]) => (
+                <circle {cx} {cy} r={fr} stroke-width={fw} stroke="black" />
+            ))
+
+        }
+        <circle cx={R5.cx} cy={R5.cy} r={fr} stroke-width={fw} stroke="black" />
+        <g fill={stroke} stroke-width="0" text-anchor="middle">
+            {
+                // draw finger numbers
+                fingers.map(([{ x, y, name }, _]) => (
+                    <text {x} {y}>
+                        {name}
+                    </text>
+                ))
+            }
+            <text x={R5.x} y={R5.y}>{R5.name}</text>
+            {
+                // draw crossings
+                crossings.map(([x, y], i) => (
+                    <>
+                        <text {x} {y}>
+                            x
+                        </text>
+                        <text x={x + 21} y={y + 12} style="font-size: 2em">
+                            {i + 1}
+                        </text>
+                    </>
+                ))
+            }
+        </g>
+    </Svg>
+</Layout>

@@ -1,0 +1,20 @@
+---
+export interface Props {
+    width: number;
+    height: number;
+    viewBox: string;
+}
+---
+
+<svg xmlns="http://www.w3.org/2000/svg" {...Astro.props}>
+    <style>
+        .material-icons-round {
+            font-size: 2em;
+        }
+        text {
+            font-family: "Libertine";
+            font-size: 3em;
+        }
+    </style>
+    <slot />
+</svg>

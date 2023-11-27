@@ -1,0 +1,67 @@
+---
+import { CCW, CW, D, ap, fr, fw, sw, ttd } from "../../components/consts";
+import { L1, L5,R1,R5, R2, R3 } from "../../components/fingers";
+import { arcs2paths, fingers2arcs } from "../../components/math";
+
+import Svg from "../../components/Svg.astro";
+import Layout from "../../layouts/Layout.astro";
+// const R3 = { ...R, cx: R.cx - 400 };
+
+const fingerss = [CW, CCW].map((c) => [
+    [L1, CW],
+    [L5, c],
+    [R5, c],
+    [R1, CW]
+]);
+const arcss = fingerss.map(fingers2arcs);
+const pathss = arcss.map((arcs, i) => arcs2paths(fingerss[i], arcs));
+
+const s = 4; // scale
+const arrows = [
+    "M18.4 10.6C16.55 8.99 14.15 8 11.5 8c-4.16 0-7.74 2.42-9.44 5.93-.32.67.04 1.47.75 1.71.59.2 1.23-.08 1.5-.64 1.3-2.66 4.03-4.5 7.19-4.5 1.95 0 3.73.72 5.12 1.88l-1.91 1.91c-.63.63-.19 1.71.7 1.71H21c.55 0 1-.45 1-1V9.41c0-.89-1.08-1.34-1.71-.71l-1.89 1.9z",
+    "M12.5 8c-2.65 0-5.05.99-6.9 2.6L3.71 8.71C3.08 8.08 2 8.52 2 9.41V15c0 .55.45 1 1 1h5.59c.89 0 1.34-1.08.71-1.71l-1.91-1.91c1.39-1.16 3.16-1.88 5.12-1.88 3.16 0 5.89 1.84 7.19 4.5.27.56.91.84 1.5.64.71-.23 1.07-1.04.75-1.72C20.23 10.42 16.65 8 12.5 8z",
+];
+const d = arrows[0];
+const [x, y, width, height] = [75, 70, 300, 980];
+---
+
+<Layout title="segments">
+    {
+        pathss.map((paths, i) => (
+            <Svg
+                viewBox={`${x} ${y} ${width} ${height}`}
+                {width}
+                {height}
+            >        <g fill="none">
+            {
+                // draw strings
+                paths.map((path) => (
+                    <>
+                        <path d={path} stroke="white" stroke-width={fw + ap} />
+                        <path d={path} stroke="red" stroke-width={sw} />
+                    </>
+                ))
+            }
+            {
+                // draw fingers
+                [L1, L5].map(({ cx, cy }) => (
+                    <circle stroke="black" {cx} {cy} r={fr} stroke-width={fw} />
+                ))
+            }
+        </g>
+        <g fill="black" stroke-width="0" text-anchor="middle">
+            <text x={L1.cx - 90} y={L1.cy - 50}>L2f</text>
+            <text x={L1.cx + 70} y={L1.cy + 90}>L2n</text>
+            <text x={L5.cx + 70} y={L5.cy - 60}>L5f</text>
+            <text x={L1.cx - 90} y={L5.cy + 90}>L5n</text>
+        </g>
+        <g transform={`scale(${s})`}>
+            <path transform={`translate(${L5.cx / s-35},${L5.cy/s-20}) rotate(-40)`} d={arrows[i]}
+            ></path>
+            <path
+                transform={`translate(${L5.cx / s-20},${L1.cy / s + 30}) rotate(230)`}
+                {d}></path>
+        </g></Svg>
+        ))
+    }
+</Layout>

@@ -1,0 +1,51 @@
+---
+import { CCW, CW, ap, fr, fw, sw } from "../components/consts";
+import { L3, R3 as R } from "../components/fingers";
+import { arcs2paths, fingers2arcs } from "../components/math";
+
+import Svg from "../components/Svg.astro";
+import Layout from "../layouts/Layout.astro";
+
+const R3 = { ...R, cx: R.cx - 800 };
+const fingerss = [[CW,CW],[CCW,CW],[CW,CCW]].map(([c1,c2])=>[
+    [L3, c1],
+    [R3, c2],
+]);
+
+const arcss = fingerss.map(fingers2arcs);
+const pathss = arcss.map((arcs, i) => arcs2paths(fingerss[i], arcs));
+
+const [x, y, width, height] = [0, 325, 300-56, 225];
+---
+
+<Layout title="segments">
+    {
+        pathss.map((paths,i) => <Svg
+        viewBox={`${x} ${y} ${width} ${height}`}
+        {width}
+        {height}
+    >
+        <g fill="none">
+            {
+                // draw strings
+                paths.map((path) => (
+                    <>
+                        <path d={path} stroke="white" stroke-width={fw + ap} />
+                        <path d={path} stroke="red" stroke-width={sw} />
+                    </>
+                ))
+            }
+            {
+                // draw fingers
+                [L3, R3].map(({ cx, cy }) => (
+                    <circle stroke="black" {cx} {cy} r={fr} stroke-width={fw} />
+                ))
+            }
+        </g>
+        <g fill="black" stroke-width="0" text-anchor="middle">
+            <text x={L3.cx + 30} y={L3.cy - 60}>Ff</text>
+            <text x={L3.cx + 30} y={L3.cy + 90}>Fn</text>
+        </g>
+    </Svg>)
+    }
+</Layout>
