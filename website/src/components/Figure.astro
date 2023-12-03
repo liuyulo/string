@@ -50,7 +50,7 @@ for (const i of larges.flatMap((b, i) => (b ? [i] : []))) {
             ))
 
         }
-        <circle cx={R5.cx} cy={R5.cy} r={fr} stroke-width={fw} stroke="black" />
+        <!-- <circle cx={R5.cx} cy={R5.cy} r={fr} stroke-width={fw} stroke="black" /> -->
         <g fill={stroke} stroke-width="0" text-anchor="middle">
             {
                 // draw finger numbers
@@ -60,7 +60,7 @@ for (const i of larges.flatMap((b, i) => (b ? [i] : []))) {
                     </text>
                 ))
             }
-            <text x={R5.x} y={R5.y}>{R5.name}</text>
+            <!-- <text x={R5.x} y={R5.y}>{R5.name}</text> -->
             {
                 // draw crossings
                 crossings.map(([x, y], i) => (

@@ -20,18 +20,18 @@ const figures = [
     {
         fingers: [
             [R1, CW],
-            [R5, CW],
-            [L1, CW],
-        ],
-        larges: [true, false, true],
-    },
-    {
-        fingers: [
-            [R1, CW],
             [R5, CCW],
             [L1, CW],
         ],
         larges: [false, false, true],
+    },
+    {
+        fingers: [
+            [R1, CW],
+            [R5, CW],
+            [L1, CW],
+        ],
+        larges: [true, false, true],
     },
     {
         fingers: [
@@ -73,7 +73,7 @@ const [x, y, width, height] = [80, 490, 580, 540];
 
 <Layout title="segments">
     {
-        pathss.map((paths) => (
+        pathss.map((paths, i) => (
             <Svg
                 viewBox={`${x} ${y} ${width} ${height}`}
                 {width}
@@ -105,6 +105,17 @@ const [x, y, width, height] = [80, 490, 580, 540];
                     </text>
                     ))
                 }
+                <g fill="black" stroke-width="0" text-anchor="middle">
+                    {i % 2 == 1 &&
+                        <text x={L1.cx + 60} y={L1.cy - 70}>x₁</text>
+                        <text x={R1.cx + 20} y={R1.cy - 70}>x₂</text>
+                    }
+                    {i && i % 2 == 0 &&
+                        <text x={L1.cx + 80} y={L1.cy - 70}>x₁</text>
+                        <text x={R1.cx } y={R1.cy - 210}>x₃</text>
+                        <text x={R1.cx } y={R1.cy - 70}>x₂</text>
+                    }
+                </g>
             </Svg>
         ))
     }

@@ -5,7 +5,7 @@ import * as figures from "../components/figures";
 ---
 
 {
-    Object.entries(figures).map(([name, figure]) => (
+    Object.values(figures).map(figure => (
         <Figure {figure} />
     ))
 }

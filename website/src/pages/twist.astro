@@ -14,8 +14,10 @@ const fingerss = [[CW,CW],[CCW,CW],[CW,CCW]].map(([c1,c2])=>[
 
 const arcss = fingerss.map(fingers2arcs);
 const pathss = arcss.map((arcs, i) => arcs2paths(fingerss[i], arcs));
-
-const [x, y, width, height] = [0, 325, 300-56, 225];
+const d=     "M18.4 10.6C16.55 8.99 14.15 8 11.5 8c-4.16 0-7.74 2.42-9.44 5.93-.32.67.04 1.47.75 1.71.59.2 1.23-.08 1.5-.64 1.3-2.66 4.03-4.5 7.19-4.5 1.95 0 3.73.72 5.12 1.88l-1.91 1.91c-.63.63-.19 1.71.7 1.71H21c.55 0 1-.45 1-1V9.41c0-.89-1.08-1.34-1.71-.71l-1.89 1.9z"
+// ];
+const [x, y, width, height] = [-56, 325, 300, 225];
+const s=4;
 ---
 
 <Layout title="segments">
@@ -43,9 +45,15 @@ const [x, y, width, height] = [0, 325, 300-56, 225];
             }
         </g>
         <g fill="black" stroke-width="0" text-anchor="middle">
-            <text x={L3.cx + 30} y={L3.cy - 60}>Ff</text>
-            <text x={L3.cx + 30} y={L3.cy + 90}>Fn</text>
+            <text x={L3.cx + 30} y={L3.cy - 60}>f</text>
+            <text x={L3.cx + 30} y={L3.cy + 90}>n</text>
+
+            {i && <text x={L3.cx + 105} y={L3.cy - 30}>x₁</text>}
         </g>
+        <g transform={`scale(${s})`}>
+
+        <path transform={`translate(-20,${L3.cy / s + 12}) rotate(-90)`} {d}/>
+    </g>
     </Svg>)
     }
 </Layout>
