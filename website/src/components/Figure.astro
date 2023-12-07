@@ -4,7 +4,6 @@ import Svg from "./Svg.astro";
 
 import type { Figure } from "./consts";
 import { D, ap, background, fr, fw, stroke, sw, ttd } from "./consts";
-import { R5 } from "./fingers";
 import { arcs2paths, fingers2arcs } from "./math";
 
 export interface Props {
@@ -75,5 +74,6 @@ for (const i of larges.flatMap((b, i) => (b ? [i] : []))) {
                 ))
             }
         </g>
+        <slot/>
     </Svg>
 </Layout>

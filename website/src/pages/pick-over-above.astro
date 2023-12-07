@@ -1,0 +1,28 @@
+---
+import Figure from "../components/Figure.astro";
+import { sw } from "../components/consts";
+import { above } from "../components/figures";
+import { L1, L5, R2, R5 } from "../components/fingers";
+
+const dx1 = -100
+const dx2 = -20
+---
+
+<Figure figure={above}>
+    <g fill="blue" stroke-width="0" text-anchor="middle">
+        <text x={L1.cx - 50} y={L1.cy-100}>L1f</text>
+        <text x={L1.cx - dx1} y={L1.cy+90}>L1n</text>
+        <text x={R2.cx + dx2} y={R2.y+120}>R2n</text>
+        <text x={R2.cx + dx2} y={R2.y-100}>R2f</text>
+        <text x={L5.cx + 50} y={L5.cy + 100}>L5n</text>
+        <text x={L5.cx - dx1} y={L5.cy-70}>L5f</text>
+        <text x={R5.cx + dx1} y={R5.cy-70}>R5f</text>
+        <text x={R5.cx - 30} y={R5.cy+100}>R5n</text>
+   </g>
+    <g fill="none" stroke="blue" stroke-width={sw/3} stroke-linecap="round">
+        <path stroke-dasharray="8% 60%" d="M219.12472483803572 974.417586353439 L1103.4060379911457 608.1362734923308"/>
+        <path stroke-dasharray="8% 60%" d="M219.12472483803546 164.24908031322775 L1103.4060374926673 530.5303929678594"/>
+        <path stroke-dasharray="8% 46%" d="M203.0520206787017 245.0520206787018 L935.6146459879649 245.0520206787018"/>
+        <path stroke-dasharray="8% 66%" d="M905.91616117813 173.3535358688668 L173.35353586886674 905.9161611781301"/>
+    </g>
+</Figure>
