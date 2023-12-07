@@ -1,16 +1,25 @@
 \documentclass{beamer}
+% \documentclass[handout]{beamer}
+
 
 \setbeameroption{show notes on second screen=right}
+% \setbeameroption{show only notes}
 \setbeamercolor{frame number in head/foot}{fg=black}
 \setbeamerfont{frame number in head/foot}{size=\small}
-\setbeamertemplate{note page}[plain]
+% \setbeamertemplate{note page}[plain]
 \setbeamertemplate{navigation symbols}{}
 \setbeamertemplate{footline}[frame number]
+
+
+% \setbeamercolor{frametitle}{fg=white}
+% \setbeamercolor{background canvas}{bg=black}
+% \setbeamercolor{normal text}{fg=white}
 
 \input{preamble}
 
 \graphicspath{{figures/}}
 \newcommand\g[2][0.2]{\raisebox{-0.45\height}{\includegraphics[width=#1\columnwidth]{#2}}}
+\newcommand\n[2][1]{\note<.#1>[item]{#2}}
 
 \title{A Computational Approach to String Figures}
 \date{2023-11-29}
@@ -21,14 +30,15 @@
 
 \include{sections/01-string}
 \include{sections/02-repr}
-\include{sections/03-moves}
-\include{sections/04-extend}
-
-% \begin{frame}{To Do}
-% \begin{itemize}
-%     \item Transfer your magic paragraph from the article to here
-%     \item Plan out your slides to ideas / content
-% \end{itemize}
+% \section{Moves}
+% \subsection{Twist}
+% \include{sections/0301-twist}
+% \subsection{Pick}
+% \include{sections/0302-pick}
+% \include{sections/0303-pick-example}
+% \include{sections/04-summary}
+% \begin{frame}{}
+%   \centering \Large
+%   \emph{Thank you!}
 % \end{frame}
-
 \end{document}

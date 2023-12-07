@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.11.27)  27 NOV 2023 10:47
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.11.27)  29 NOV 2023 14:26
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1141,63 +1141,63 @@ uxBiolinumT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 10.95pt on input line 31.
-)
-No file main.aux.
-
+) (./main.aux (./sections/01-string.aux) (./sections/02-repr.aux))
 \openout1 = main.aux
-LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 18.
+
+LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 27.
 LaTeX Font Info:    Trying to load font information for OML+nxlmi on input line
- 18.
+ 27.
+
 (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/omlnxlmi.fd
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-8.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+7.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 27.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-18.
+27.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 27.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 18.
+ 27.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 27.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 18.
+e 27.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    ... okay on input line 27.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1255,70 +1255,72 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 18.
+Package hyperref Info: Link coloring ON on input line 27.
+
+(./main.out) (./main.out)
 \@outlinefile=\write5
 
 \openout5 = main.out
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/LinuxLibertineT-TLF/m/n --> OT1/cmss/m/n on input l
-ine 18.
+ine 27.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/LinuxLibertineT-TLF/sb/n --> OT1/cmss/b/n on input 
-line 18.
+line 27.
 \symnumbers=\mathgroup10
 \sympureletters=\mathgroup11
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  OT1/cmss/m/n --> T1/LinuxLibertineT-TLF/m/n on input li
-ne 18.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 18.
+ne 27.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 27.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/LinuxLibertineT-TLF/sb/n --> T1/LinuxBiolinumT-TLF/
-b/n on input line 18.
+b/n on input line 27.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  OT1/LinuxLibertineT-TLF/sb/n --> T1/LinuxBiolinumT-TLF/
-b/n on input line 18.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 18.
+b/n on input line 27.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 27.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  T1/LinuxBiolinumT-TLF/m/n --> T1/LinuxBiolinumT-TLF/m/n
- on input line 18.
+ on input line 27.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  T1/LinuxBiolinumT-TLF/b/n --> T1/LinuxBiolinumT-TLF/m/n
- on input line 18.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 18.
+ on input line 27.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 27.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/LinuxLibertineT-TLF/m/it --> T1/LinuxBiolinumT-TLF/
-m/it on input line 18.
+m/it on input line 27.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/LinuxLibertineT-TLF/sb/it --> T1/LinuxBiolinumT-TLF
-/m/it on input line 18.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 18.
+/m/it on input line 27.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 27.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  T1/lmtt/m/n --> T1/iosevka-custom-regular.ttf(0)/m/n on
- input line 18.
+ input line 27.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  T1/lmtt/b/n --> T1/iosevka-custom-regular.ttf(0)/m/n on
- input line 18.
+ input line 27.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
 (Font)                  T1/LinuxBiolinumT-TLF/m/n --> T1/LinuxBiolinumT-TLF/b/n
- on input line 18.
+ on input line 27.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  T1/LinuxBiolinumT-TLF/m/it --> T1/LinuxBiolinumT-TLF/b/
-it on input line 18.
+it on input line 27.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  OT1/cmss/b/n --> T1/LinuxLibertineT-TLF/b/n on input li
-ne 18.
+ne 27.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  T1/LinuxBiolinumT-TLF/b/n --> T1/LinuxBiolinumT-TLF/b/n
- on input line 18.
+ on input line 27.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  T1/LinuxBiolinumT-TLF/m/n --> T1/LinuxBiolinumT-TLF/b/n
- on input line 18.
+ on input line 27.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  T1/LinuxBiolinumT-TLF/m/it --> T1/LinuxBiolinumT-TLF/b/
-it on input line 18.
+it on input line 27.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  T1/iosevka-custom-regular.ttf(0)/m/n --> T1/iosevka-cus
-tom-regular.ttf(0)/b/n on input line 18.
+tom-regular.ttf(0)/b/n on input line 27.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/translator/translator-basic-dicti
 onary-English.dict
@@ -1344,65 +1346,96 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Command `\dddot' is already robust on input line 18.
-LaTeX Info: Command `\ddddot' is already robust on input line 18.
+LaTeX Info: Command `\dddot' is already robust on input line 27.
+LaTeX Info: Command `\ddddot' is already robust on input line 27.
 \c@lstlisting=\count385
 \c@mv@tabular=\count386
 \c@mv@boldtabular=\count387
-
-No file main.nav.
+ (./main.nav)
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 18.
+(Font)              scaled to size 6.0pt on input line 27.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 19.
+(Font)              scaled to size 14.4pt on input line 28.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 19.
+(Font)              scaled to size 8.0pt on input line 28.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 4.0pt on input line 19.
+(Font)              scaled to size 4.0pt on input line 28.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 19.
+(Font)              scaled to size 10.0pt on input line 28.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 28.
 
 \openout2 = sections/01-string.aux
-(./sections/01-string.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
+ (./sections/01-string.tex
+<figures/figure1.jpg, id=34, 170.5572pt x 127.9179pt>
+File: figures/figure1.jpg Graphic file (type jpg)
+<use figures/figure1.jpg>
+Package luatex.def Info: figures/figure1.jpg  used on input line 36.
+(luatex.def)             Requested size: 92.1879pt x 69.14099pt.
+<figures/figure2.jpg, id=35, 169.1118pt x 126.9543pt>
+File: figures/figure2.jpg Graphic file (type jpg)
+<use figures/figure2.jpg>
+Package luatex.def Info: figures/figure2.jpg  used on input line 36.
+(luatex.def)             Requested size: 92.1879pt x 69.2071pt.
+<figures/figure3.jpg, id=36, 169.1118pt x 126.9543pt>
+File: figures/figure3.jpg Graphic file (type jpg)
+<use figures/figure3.jpg>
+Package luatex.def Info: figures/figure3.jpg  used on input line 36.
+(luatex.def)             Requested size: 92.1879pt x 69.2071pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 36.
 
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
 
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-21.
+36.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-21.
+36.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-21.
+36.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 6.1pt on input line 21.
+(Font)              scaled to size 6.1pt on input line 36.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 21.
+(Font)              scaled to size 10.95pt on input line 36.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 21.
+(Font)              scaled to size 8.0pt on input line 36.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 6.1pt on input line 21.
- [2
+(Font)              scaled to size 6.1pt on input line 36.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 36.
+
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 7.3pt on input line 36.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 5.5pt on input line 36.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
+(Font)              scaled to size 9.0pt on input line 36.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
+(Font)              scaled to size 7.3pt on input line 36.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
+(Font)              scaled to size 5.5pt on input line 36.
+[2
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1410,7 +1443,20 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 
-] [3
+]
+File: figures/figure1.jpg Graphic file (type jpg)
+<use figures/figure1.jpg>
+Package luatex.def Info: figures/figure1.jpg  used on input line 36.
+(luatex.def)             Requested size: 92.1879pt x 69.14099pt.
+File: figures/figure2.jpg Graphic file (type jpg)
+<use figures/figure2.jpg>
+Package luatex.def Info: figures/figure2.jpg  used on input line 36.
+(luatex.def)             Requested size: 92.1879pt x 69.2071pt.
+File: figures/figure3.jpg Graphic file (type jpg)
+<use figures/figure3.jpg>
+Package luatex.def Info: figures/figure3.jpg  used on input line 36.
+(luatex.def)             Requested size: 92.1879pt x 69.2071pt.
+ [3
 
 
 
@@ -1419,7 +1465,20 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
 
-] [4
+<./figures/figure1.jpg><./figures/figure2.jpg><./figures/figure3.jpg>]
+File: figures/figure1.jpg Graphic file (type jpg)
+<use figures/figure1.jpg>
+Package luatex.def Info: figures/figure1.jpg  used on input line 36.
+(luatex.def)             Requested size: 92.1879pt x 69.14099pt.
+File: figures/figure2.jpg Graphic file (type jpg)
+<use figures/figure2.jpg>
+Package luatex.def Info: figures/figure2.jpg  used on input line 36.
+(luatex.def)             Requested size: 92.1879pt x 69.2071pt.
+File: figures/figure3.jpg Graphic file (type jpg)
+<use figures/figure3.jpg>
+Package luatex.def Info: figures/figure3.jpg  used on input line 36.
+(luatex.def)             Requested size: 92.1879pt x 69.2071pt.
+ [4
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1427,7 +1486,20 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.3'
 
-] [5
+]
+File: figures/figure1.jpg Graphic file (type jpg)
+<use figures/figure1.jpg>
+Package luatex.def Info: figures/figure1.jpg  used on input line 36.
+(luatex.def)             Requested size: 92.1879pt x 69.14099pt.
+File: figures/figure2.jpg Graphic file (type jpg)
+<use figures/figure2.jpg>
+Package luatex.def Info: figures/figure2.jpg  used on input line 36.
+(luatex.def)             Requested size: 92.1879pt x 69.2071pt.
+File: figures/figure3.jpg Graphic file (type jpg)
+<use figures/figure3.jpg>
+Package luatex.def Info: figures/figure3.jpg  used on input line 36.
+(luatex.def)             Requested size: 92.1879pt x 69.2071pt.
+ [5
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1435,7 +1507,20 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.4'
 
-] [6
+]
+File: figures/figure1.jpg Graphic file (type jpg)
+<use figures/figure1.jpg>
+Package luatex.def Info: figures/figure1.jpg  used on input line 36.
+(luatex.def)             Requested size: 92.1879pt x 69.14099pt.
+File: figures/figure2.jpg Graphic file (type jpg)
+<use figures/figure2.jpg>
+Package luatex.def Info: figures/figure2.jpg  used on input line 36.
+(luatex.def)             Requested size: 92.1879pt x 69.2071pt.
+File: figures/figure3.jpg Graphic file (type jpg)
+<use figures/figure3.jpg>
+Package luatex.def Info: figures/figure3.jpg  used on input line 36.
+(luatex.def)             Requested size: 92.1879pt x 69.2071pt.
+ [6
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1443,7 +1528,20 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.5'
 
-] [7
+]
+File: figures/figure1.jpg Graphic file (type jpg)
+<use figures/figure1.jpg>
+Package luatex.def Info: figures/figure1.jpg  used on input line 36.
+(luatex.def)             Requested size: 92.1879pt x 69.14099pt.
+File: figures/figure2.jpg Graphic file (type jpg)
+<use figures/figure2.jpg>
+Package luatex.def Info: figures/figure2.jpg  used on input line 36.
+(luatex.def)             Requested size: 92.1879pt x 69.2071pt.
+File: figures/figure3.jpg Graphic file (type jpg)
+<use figures/figure3.jpg>
+Package luatex.def Info: figures/figure3.jpg  used on input line 36.
+(luatex.def)             Requested size: 92.1879pt x 69.2071pt.
+ [7
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1451,7 +1549,20 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.6'
 
-] [8
+]
+File: figures/figure1.jpg Graphic file (type jpg)
+<use figures/figure1.jpg>
+Package luatex.def Info: figures/figure1.jpg  used on input line 36.
+(luatex.def)             Requested size: 92.1879pt x 69.14099pt.
+File: figures/figure2.jpg Graphic file (type jpg)
+<use figures/figure2.jpg>
+Package luatex.def Info: figures/figure2.jpg  used on input line 36.
+(luatex.def)             Requested size: 92.1879pt x 69.2071pt.
+File: figures/figure3.jpg Graphic file (type jpg)
+<use figures/figure3.jpg>
+Package luatex.def Info: figures/figure3.jpg  used on input line 36.
+(luatex.def)             Requested size: 92.1879pt x 69.2071pt.
+ [8
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1459,7 +1570,20 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.7'
 
-] [9
+]
+File: figures/figure1.jpg Graphic file (type jpg)
+<use figures/figure1.jpg>
+Package luatex.def Info: figures/figure1.jpg  used on input line 36.
+(luatex.def)             Requested size: 92.1879pt x 69.14099pt.
+File: figures/figure2.jpg Graphic file (type jpg)
+<use figures/figure2.jpg>
+Package luatex.def Info: figures/figure2.jpg  used on input line 36.
+(luatex.def)             Requested size: 92.1879pt x 69.2071pt.
+File: figures/figure3.jpg Graphic file (type jpg)
+<use figures/figure3.jpg>
+Package luatex.def Info: figures/figure3.jpg  used on input line 36.
+(luatex.def)             Requested size: 92.1879pt x 69.2071pt.
+ [9
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1467,7 +1591,20 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.8'
 
-] [10
+]
+File: figures/figure1.jpg Graphic file (type jpg)
+<use figures/figure1.jpg>
+Package luatex.def Info: figures/figure1.jpg  used on input line 36.
+(luatex.def)             Requested size: 92.1879pt x 69.14099pt.
+File: figures/figure2.jpg Graphic file (type jpg)
+<use figures/figure2.jpg>
+Package luatex.def Info: figures/figure2.jpg  used on input line 36.
+(luatex.def)             Requested size: 92.1879pt x 69.2071pt.
+File: figures/figure3.jpg Graphic file (type jpg)
+<use figures/figure3.jpg>
+Package luatex.def Info: figures/figure3.jpg  used on input line 36.
+(luatex.def)             Requested size: 92.1879pt x 69.2071pt.
+ [10
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1523,15 +1660,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.15'
 
-])
-\openout2 = sections/02-repr.aux
- (./sections/02-repr.tex (./figures/open.pdf_tex
-<figures/open.pdf, id=93, page=1, 798.89525pt x 562.83974pt>
-File: figures/open.pdf Graphic file (type pdf)
-<use figures/open.pdf, page 1>
-Package luatex.def Info: figures/open.pdf , page1 used on input line 56.
-(luatex.def)             Requested size: 153.64493pt x 108.24606pt.
-) [17
+] [17
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1539,15 +1668,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.16'
 
-] (./figures/open.pdf_tex
-File: figures/open.pdf Graphic file (type pdf)
-<use figures/open.pdf, page 1>
-Package luatex.def Info: figures/open.pdf , page1 used on input line 56.
-(luatex.def)             Requested size: 153.64493pt x 108.24606pt.
-) [18
-
-
-
+] [18
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1555,12 +1676,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.17'
 
-<./figures/open.pdf>] (./figures/open.pdf_tex
-File: figures/open.pdf Graphic file (type pdf)
-<use figures/open.pdf, page 1>
-Package luatex.def Info: figures/open.pdf , page1 used on input line 56.
-(luatex.def)             Requested size: 153.64493pt x 108.24606pt.
-) [19
+] [19
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1568,12 +1684,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.18'
 
-] (./figures/open.pdf_tex
-File: figures/open.pdf Graphic file (type pdf)
-<use figures/open.pdf, page 1>
-Package luatex.def Info: figures/open.pdf , page1 used on input line 56.
-(luatex.def)             Requested size: 153.64493pt x 108.24606pt.
-) [20
+] [20
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1581,12 +1692,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.19'
 
-] (./figures/open.pdf_tex
-File: figures/open.pdf Graphic file (type pdf)
-<use figures/open.pdf, page 1>
-Package luatex.def Info: figures/open.pdf , page1 used on input line 56.
-(luatex.def)             Requested size: 153.64493pt x 108.24606pt.
-) [21
+] [21
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1594,12 +1700,9 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.20'
 
-] (./figures/open.pdf_tex
-File: figures/open.pdf Graphic file (type pdf)
-<use figures/open.pdf, page 1>
-Package luatex.def Info: figures/open.pdf , page1 used on input line 56.
-(luatex.def)             Requested size: 153.64493pt x 108.24606pt.
-) [22
+])
+\openout2 = sections/02-repr.aux
+ (./sections/02-repr.tex [22
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1607,27 +1710,10 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.21'
 
-]
+] [23
 
-LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 33.
 
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 33.
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 5.5pt on input line 33.
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 33.
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 7.3pt on input line 33.
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 5.5pt on input line 33.
-(./figures/open.pdf_tex
-File: figures/open.pdf Graphic file (type pdf)
-<use figures/open.pdf, page 1>
-Package luatex.def Info: figures/open.pdf , page1 used on input line 56.
-(luatex.def)             Requested size: 153.64493pt x 108.24606pt.
-) [23
+
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1635,16 +1721,10 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.22'
 
-] (./figures/open.pdf_tex
-File: figures/open.pdf Graphic file (type pdf)
-<use figures/open.pdf, page 1>
-Package luatex.def Info: figures/open.pdf , page1 used on input line 56.
-(luatex.def)             Requested size: 184.3758pt x 129.897pt.
-)
-Overfull \vbox (21.48251pt too high) detected at line 60
- []
-
-[24
+]
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 27.
+ [24
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1652,16 +1732,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.23'
 
-] (./figures/open.pdf_tex
-File: figures/open.pdf Graphic file (type pdf)
-<use figures/open.pdf, page 1>
-Package luatex.def Info: figures/open.pdf , page1 used on input line 56.
-(luatex.def)             Requested size: 184.3758pt x 129.897pt.
-)
-Overfull \vbox (21.48251pt too high) detected at line 60
- []
-
-[25
+] [25
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1669,16 +1740,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.24'
 
-] (./figures/open.pdf_tex
-File: figures/open.pdf Graphic file (type pdf)
-<use figures/open.pdf, page 1>
-Package luatex.def Info: figures/open.pdf , page1 used on input line 56.
-(luatex.def)             Requested size: 184.3758pt x 129.897pt.
-)
-Overfull \vbox (21.48251pt too high) detected at line 60
- []
-
-[26
+] [26
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1686,16 +1748,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.25'
 
-] (./figures/open.pdf_tex
-File: figures/open.pdf Graphic file (type pdf)
-<use figures/open.pdf, page 1>
-Package luatex.def Info: figures/open.pdf , page1 used on input line 56.
-(luatex.def)             Requested size: 184.3758pt x 129.897pt.
-)
-Overfull \vbox (21.48251pt too high) detected at line 60
- []
-
-[27
+] [27
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1703,16 +1756,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.26'
 
-] (./figures/open.pdf_tex
-File: figures/open.pdf Graphic file (type pdf)
-<use figures/open.pdf, page 1>
-Package luatex.def Info: figures/open.pdf , page1 used on input line 56.
-(luatex.def)             Requested size: 184.3758pt x 129.897pt.
-)
-Overfull \vbox (21.48251pt too high) detected at line 60
- []
-
-[28
+] [28
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1720,16 +1764,13 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.27'
 
-] (./figures/open.pdf_tex
-File: figures/open.pdf Graphic file (type pdf)
-<use figures/open.pdf, page 1>
-Package luatex.def Info: figures/open.pdf , page1 used on input line 56.
-(luatex.def)             Requested size: 184.3758pt x 129.897pt.
-)
-Overfull \vbox (21.48251pt too high) detected at line 60
- []
-
-[29
+]
+<figures/open.png, id=305, 1024.82875pt x 868.24374pt>
+File: figures/open.png Graphic file (type png)
+<use figures/open.png>
+Package luatex.def Info: figures/open.png  used on input line 35.
+(luatex.def)             Requested size: 276.559pt x 234.29646pt.
+ [29
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1737,16 +1778,18 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.28'
 
-] (./figures/open.pdf_tex
-File: figures/open.pdf Graphic file (type pdf)
-<use figures/open.pdf, page 1>
-Package luatex.def Info: figures/open.pdf , page1 used on input line 56.
-(luatex.def)             Requested size: 184.3758pt x 129.897pt.
-)
-Overfull \vbox (21.48251pt too high) detected at line 60
- []
+]
+LaTeX Font Info:    Trying to load font information for TS1+LinuxBiolinumT-TLF 
+on input line 44.
 
-[30
+(/usr/local/texlive/2023/texmf-dist/tex/latex/libertine/TS1LinuxBiolinumT-TLF.f
+d
+File: TS1LinuxBiolinumT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/L
+inuxBiolinumT-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 44.
+ [30
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1754,17 +1797,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.29'
 
-] (./figures/starc.pdf_tex
-<figures/starc.pdf, id=174, page=1, 798.89525pt x 562.83974pt>
-File: figures/starc.pdf Graphic file (type pdf)
-<use figures/starc.pdf, page 1>
-Package luatex.def Info: figures/starc.pdf , page1 used on input line 56.
-(luatex.def)             Requested size: 184.3758pt x 129.897pt.
-)
-Overfull \vbox (5.4545pt too high) detected at line 83
- []
-
-[31
+<./figures/open.png>] [31
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1772,16 +1805,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.30'
 
-] (./figures/starc.pdf_tex
-File: figures/starc.pdf Graphic file (type pdf)
-<use figures/starc.pdf, page 1>
-Package luatex.def Info: figures/starc.pdf , page1 used on input line 56.
-(luatex.def)             Requested size: 184.3758pt x 129.897pt.
-)
-Overfull \vbox (5.4545pt too high) detected at line 83
- []
-
-[32
+] [32
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1789,16 +1813,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.31'
 
-<./figures/starc.pdf>] (./figures/starc.pdf_tex
-File: figures/starc.pdf Graphic file (type pdf)
-<use figures/starc.pdf, page 1>
-Package luatex.def Info: figures/starc.pdf , page1 used on input line 56.
-(luatex.def)             Requested size: 184.3758pt x 129.897pt.
-)
-Overfull \vbox (5.4545pt too high) detected at line 83
- []
-
-[33
+] [33
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1806,16 +1821,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.32'
 
-] (./figures/starc.pdf_tex
-File: figures/starc.pdf Graphic file (type pdf)
-<use figures/starc.pdf, page 1>
-Package luatex.def Info: figures/starc.pdf , page1 used on input line 56.
-(luatex.def)             Requested size: 184.3758pt x 129.897pt.
-)
-Overfull \vbox (5.4545pt too high) detected at line 83
- []
-
-[34
+] [34
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1823,16 +1829,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.33'
 
-] (./figures/starc.pdf_tex
-File: figures/starc.pdf Graphic file (type pdf)
-<use figures/starc.pdf, page 1>
-Package luatex.def Info: figures/starc.pdf , page1 used on input line 56.
-(luatex.def)             Requested size: 184.3758pt x 129.897pt.
-)
-Overfull \vbox (5.4545pt too high) detected at line 83
- []
-
-[35
+] [35
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1841,36 +1838,10 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 warning  (pdf backend): ignoring duplicate destination with the name 'page.34'
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+LinuxBiolinumT-TLF 
-on input line 90.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/libertine/TS1LinuxBiolinumT-TLF.f
-d
-File: TS1LinuxBiolinumT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/L
-inuxBiolinumT-TLF.
-)
-LaTeX Font Info:    Font shape `TS1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 90.
-<figures/leftcw.png, id=203, 1505.625pt x 1129.21875pt>
-File: figures/leftcw.png Graphic file (type png)
-<use figures/leftcw.png>
-Package luatex.def Info: figures/leftcw.png  used on input line 111.
-(luatex.def)             Requested size: 61.45703pt x 46.09149pt.
-<figures/leftccw.png, id=204, 1505.625pt x 1129.21875pt>
-File: figures/leftccw.png Graphic file (type png)
-<use figures/leftccw.png>
-Package luatex.def Info: figures/leftccw.png  used on input line 111.
-(luatex.def)             Requested size: 61.45703pt x 46.09149pt.
-<figures/rightcw.png, id=205, 1505.625pt x 1129.21875pt>
-File: figures/rightcw.png Graphic file (type png)
-<use figures/rightcw.png>
-Package luatex.def Info: figures/rightcw.png  used on input line 111.
-(luatex.def)             Requested size: 61.45703pt x 46.09149pt.
-<figures/rightccw.png, id=206, 1505.625pt x 1129.21875pt>
-File: figures/rightccw.png Graphic file (type png)
-<use figures/rightccw.png>
-Package luatex.def Info: figures/rightccw.png  used on input line 111.
-(luatex.def)             Requested size: 61.45703pt x 46.09149pt.
+File: figures/open.png Graphic file (type png)
+<use figures/open.png>
+Package luatex.def Info: figures/open.png  used on input line 70.
+(luatex.def)             Requested size: 215.10196pt x 182.23058pt.
  [36
 
 
@@ -1879,24 +1850,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.35'
 
-]
-File: figures/leftcw.png Graphic file (type png)
-<use figures/leftcw.png>
-Package luatex.def Info: figures/leftcw.png  used on input line 111.
-(luatex.def)             Requested size: 61.45703pt x 46.09149pt.
-File: figures/leftccw.png Graphic file (type png)
-<use figures/leftccw.png>
-Package luatex.def Info: figures/leftccw.png  used on input line 111.
-(luatex.def)             Requested size: 61.45703pt x 46.09149pt.
-File: figures/rightcw.png Graphic file (type png)
-<use figures/rightcw.png>
-Package luatex.def Info: figures/rightcw.png  used on input line 111.
-(luatex.def)             Requested size: 61.45703pt x 46.09149pt.
-File: figures/rightccw.png Graphic file (type png)
-<use figures/rightccw.png>
-Package luatex.def Info: figures/rightccw.png  used on input line 111.
-(luatex.def)             Requested size: 61.45703pt x 46.09149pt.
- [37
+] [37
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1904,25 +1858,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.36'
 
-<./figures/leftcw.png><./figures/leftccw.png><./figures/rightcw.png><./figures/r
-ightccw.png>]
-File: figures/leftcw.png Graphic file (type png)
-<use figures/leftcw.png>
-Package luatex.def Info: figures/leftcw.png  used on input line 111.
-(luatex.def)             Requested size: 61.45703pt x 46.09149pt.
-File: figures/leftccw.png Graphic file (type png)
-<use figures/leftccw.png>
-Package luatex.def Info: figures/leftccw.png  used on input line 111.
-(luatex.def)             Requested size: 61.45703pt x 46.09149pt.
-File: figures/rightcw.png Graphic file (type png)
-<use figures/rightcw.png>
-Package luatex.def Info: figures/rightcw.png  used on input line 111.
-(luatex.def)             Requested size: 61.45703pt x 46.09149pt.
-File: figures/rightccw.png Graphic file (type png)
-<use figures/rightccw.png>
-Package luatex.def Info: figures/rightccw.png  used on input line 111.
-(luatex.def)             Requested size: 61.45703pt x 46.09149pt.
- [38
+] [38
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1930,24 +1866,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.37'
 
-]
-File: figures/leftcw.png Graphic file (type png)
-<use figures/leftcw.png>
-Package luatex.def Info: figures/leftcw.png  used on input line 111.
-(luatex.def)             Requested size: 61.45703pt x 46.09149pt.
-File: figures/leftccw.png Graphic file (type png)
-<use figures/leftccw.png>
-Package luatex.def Info: figures/leftccw.png  used on input line 111.
-(luatex.def)             Requested size: 61.45703pt x 46.09149pt.
-File: figures/rightcw.png Graphic file (type png)
-<use figures/rightcw.png>
-Package luatex.def Info: figures/rightcw.png  used on input line 111.
-(luatex.def)             Requested size: 61.45703pt x 46.09149pt.
-File: figures/rightccw.png Graphic file (type png)
-<use figures/rightccw.png>
-Package luatex.def Info: figures/rightccw.png  used on input line 111.
-(luatex.def)             Requested size: 61.45703pt x 46.09149pt.
- [39
+] [39
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1955,24 +1874,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.38'
 
-]
-File: figures/leftcw.png Graphic file (type png)
-<use figures/leftcw.png>
-Package luatex.def Info: figures/leftcw.png  used on input line 111.
-(luatex.def)             Requested size: 61.45703pt x 46.09149pt.
-File: figures/leftccw.png Graphic file (type png)
-<use figures/leftccw.png>
-Package luatex.def Info: figures/leftccw.png  used on input line 111.
-(luatex.def)             Requested size: 61.45703pt x 46.09149pt.
-File: figures/rightcw.png Graphic file (type png)
-<use figures/rightcw.png>
-Package luatex.def Info: figures/rightcw.png  used on input line 111.
-(luatex.def)             Requested size: 61.45703pt x 46.09149pt.
-File: figures/rightccw.png Graphic file (type png)
-<use figures/rightccw.png>
-Package luatex.def Info: figures/rightccw.png  used on input line 111.
-(luatex.def)             Requested size: 61.45703pt x 46.09149pt.
- [40
+] [40
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -1981,23 +1883,16 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 warning  (pdf backend): ignoring duplicate destination with the name 'page.39'
 
 ]
-File: figures/leftcw.png Graphic file (type png)
-<use figures/leftcw.png>
-Package luatex.def Info: figures/leftcw.png  used on input line 111.
-(luatex.def)             Requested size: 61.45703pt x 46.09149pt.
-File: figures/leftccw.png Graphic file (type png)
-<use figures/leftccw.png>
-Package luatex.def Info: figures/leftccw.png  used on input line 111.
-(luatex.def)             Requested size: 61.45703pt x 46.09149pt.
-File: figures/rightcw.png Graphic file (type png)
-<use figures/rightcw.png>
-Package luatex.def Info: figures/rightcw.png  used on input line 111.
-(luatex.def)             Requested size: 61.45703pt x 46.09149pt.
-File: figures/rightccw.png Graphic file (type png)
-<use figures/rightccw.png>
-Package luatex.def Info: figures/rightccw.png  used on input line 111.
-(luatex.def)             Requested size: 61.45703pt x 46.09149pt.
- [41
+<figures/star-pick.png, id=459, 5714.34875pt x 5714.34875pt>
+File: figures/star-pick.png Graphic file (type png)
+<use figures/star-pick.png>
+Package luatex.def Info: figures/star-pick.png  used on input line 102.
+(luatex.def)             Requested size: 215.10196pt x 215.01997pt.
+
+Overfull \vbox (11.35689pt too high) detected at line 102
+ []
+
+[41
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -2006,16 +1901,26 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 warning  (pdf backend): ignoring duplicate destination with the name 'page.40'
 
 ]
-<figures/diff-even.png, id=243, 4341.21875pt x 1129.21875pt>
-File: figures/diff-even.png Graphic file (type png)
-<use figures/diff-even.png>
-Package luatex.def Info: figures/diff-even.png  used on input line 134.
-(luatex.def)             Requested size: 153.64493pt x 39.95744pt.
-<figures/diff-odd.png, id=244, 4341.21875pt x 1129.21875pt>
-File: figures/diff-odd.png Graphic file (type png)
-<use figures/diff-odd.png>
-Package luatex.def Info: figures/diff-odd.png  used on input line 134.
-(luatex.def)             Requested size: 153.64493pt x 39.95744pt.
+<figures/leftcw.png, id=476, 903.375pt x 677.53125pt>
+File: figures/leftcw.png Graphic file (type png)
+<use figures/leftcw.png>
+Package luatex.def Info: figures/leftcw.png  used on input line 134.
+(luatex.def)             Requested size: 61.45703pt x 46.08804pt.
+<figures/leftccw.png, id=477, 903.375pt x 677.53125pt>
+File: figures/leftccw.png Graphic file (type png)
+<use figures/leftccw.png>
+Package luatex.def Info: figures/leftccw.png  used on input line 134.
+(luatex.def)             Requested size: 61.45703pt x 46.08804pt.
+<figures/rightcw.png, id=478, 903.375pt x 677.53125pt>
+File: figures/rightcw.png Graphic file (type png)
+<use figures/rightcw.png>
+Package luatex.def Info: figures/rightcw.png  used on input line 134.
+(luatex.def)             Requested size: 61.45703pt x 46.08804pt.
+<figures/rightccw.png, id=479, 903.375pt x 677.53125pt>
+File: figures/rightccw.png Graphic file (type png)
+<use figures/rightccw.png>
+Package luatex.def Info: figures/rightccw.png  used on input line 134.
+(luatex.def)             Requested size: 61.45703pt x 46.08804pt.
  [42
 
 
@@ -2024,15 +1929,23 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.41'
 
-]
-File: figures/diff-even.png Graphic file (type png)
-<use figures/diff-even.png>
-Package luatex.def Info: figures/diff-even.png  used on input line 134.
-(luatex.def)             Requested size: 153.64493pt x 39.95744pt.
-File: figures/diff-odd.png Graphic file (type png)
-<use figures/diff-odd.png>
-Package luatex.def Info: figures/diff-odd.png  used on input line 134.
-(luatex.def)             Requested size: 153.64493pt x 39.95744pt.
+<./figures/star-pick.png>]
+File: figures/leftcw.png Graphic file (type png)
+<use figures/leftcw.png>
+Package luatex.def Info: figures/leftcw.png  used on input line 134.
+(luatex.def)             Requested size: 61.45703pt x 46.08804pt.
+File: figures/leftccw.png Graphic file (type png)
+<use figures/leftccw.png>
+Package luatex.def Info: figures/leftccw.png  used on input line 134.
+(luatex.def)             Requested size: 61.45703pt x 46.08804pt.
+File: figures/rightcw.png Graphic file (type png)
+<use figures/rightcw.png>
+Package luatex.def Info: figures/rightcw.png  used on input line 134.
+(luatex.def)             Requested size: 61.45703pt x 46.08804pt.
+File: figures/rightccw.png Graphic file (type png)
+<use figures/rightccw.png>
+Package luatex.def Info: figures/rightccw.png  used on input line 134.
+(luatex.def)             Requested size: 61.45703pt x 46.08804pt.
  [43
 
 
@@ -2041,15 +1954,24 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.42'
 
-<./figures/diff-even.png><./figures/diff-odd.png>]
-File: figures/diff-even.png Graphic file (type png)
-<use figures/diff-even.png>
-Package luatex.def Info: figures/diff-even.png  used on input line 134.
-(luatex.def)             Requested size: 153.64493pt x 39.95744pt.
-File: figures/diff-odd.png Graphic file (type png)
-<use figures/diff-odd.png>
-Package luatex.def Info: figures/diff-odd.png  used on input line 134.
-(luatex.def)             Requested size: 153.64493pt x 39.95744pt.
+<./figures/leftcw.png><./figures/leftccw.png><./figures/rightcw.png><./figures/r
+ightccw.png>]
+File: figures/leftcw.png Graphic file (type png)
+<use figures/leftcw.png>
+Package luatex.def Info: figures/leftcw.png  used on input line 134.
+(luatex.def)             Requested size: 61.45703pt x 46.08804pt.
+File: figures/leftccw.png Graphic file (type png)
+<use figures/leftccw.png>
+Package luatex.def Info: figures/leftccw.png  used on input line 134.
+(luatex.def)             Requested size: 61.45703pt x 46.08804pt.
+File: figures/rightcw.png Graphic file (type png)
+<use figures/rightcw.png>
+Package luatex.def Info: figures/rightcw.png  used on input line 134.
+(luatex.def)             Requested size: 61.45703pt x 46.08804pt.
+File: figures/rightccw.png Graphic file (type png)
+<use figures/rightccw.png>
+Package luatex.def Info: figures/rightccw.png  used on input line 134.
+(luatex.def)             Requested size: 61.45703pt x 46.08804pt.
  [44
 
 
@@ -2059,16 +1981,22 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 warning  (pdf backend): ignoring duplicate destination with the name 'page.43'
 
 ]
-<figures/same-even.png, id=263, 1505.625pt x 4918.375pt>
-File: figures/same-even.png Graphic file (type png)
-<use figures/same-even.png>
-Package luatex.def Info: figures/same-even.png  used on input line 165.
-(luatex.def)             Requested size: 46.09393pt x 150.54681pt.
-<figures/same-odd.png, id=264, 1505.625pt x 4918.375pt>
-File: figures/same-odd.png Graphic file (type png)
-<use figures/same-odd.png>
-Package luatex.def Info: figures/same-odd.png  used on input line 165.
-(luatex.def)             Requested size: 46.09393pt x 150.54681pt.
+File: figures/leftcw.png Graphic file (type png)
+<use figures/leftcw.png>
+Package luatex.def Info: figures/leftcw.png  used on input line 134.
+(luatex.def)             Requested size: 61.45703pt x 46.08804pt.
+File: figures/leftccw.png Graphic file (type png)
+<use figures/leftccw.png>
+Package luatex.def Info: figures/leftccw.png  used on input line 134.
+(luatex.def)             Requested size: 61.45703pt x 46.08804pt.
+File: figures/rightcw.png Graphic file (type png)
+<use figures/rightcw.png>
+Package luatex.def Info: figures/rightcw.png  used on input line 134.
+(luatex.def)             Requested size: 61.45703pt x 46.08804pt.
+File: figures/rightccw.png Graphic file (type png)
+<use figures/rightccw.png>
+Package luatex.def Info: figures/rightccw.png  used on input line 134.
+(luatex.def)             Requested size: 61.45703pt x 46.08804pt.
  [45
 
 
@@ -2078,14 +2006,22 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 warning  (pdf backend): ignoring duplicate destination with the name 'page.44'
 
 ]
-File: figures/same-even.png Graphic file (type png)
-<use figures/same-even.png>
-Package luatex.def Info: figures/same-even.png  used on input line 165.
-(luatex.def)             Requested size: 46.09393pt x 150.54681pt.
-File: figures/same-odd.png Graphic file (type png)
-<use figures/same-odd.png>
-Package luatex.def Info: figures/same-odd.png  used on input line 165.
-(luatex.def)             Requested size: 46.09393pt x 150.54681pt.
+File: figures/leftcw.png Graphic file (type png)
+<use figures/leftcw.png>
+Package luatex.def Info: figures/leftcw.png  used on input line 134.
+(luatex.def)             Requested size: 61.45703pt x 46.08804pt.
+File: figures/leftccw.png Graphic file (type png)
+<use figures/leftccw.png>
+Package luatex.def Info: figures/leftccw.png  used on input line 134.
+(luatex.def)             Requested size: 61.45703pt x 46.08804pt.
+File: figures/rightcw.png Graphic file (type png)
+<use figures/rightcw.png>
+Package luatex.def Info: figures/rightcw.png  used on input line 134.
+(luatex.def)             Requested size: 61.45703pt x 46.08804pt.
+File: figures/rightccw.png Graphic file (type png)
+<use figures/rightccw.png>
+Package luatex.def Info: figures/rightccw.png  used on input line 134.
+(luatex.def)             Requested size: 61.45703pt x 46.08804pt.
  [46
 
 
@@ -2094,15 +2030,23 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.45'
 
-<./figures/same-even.png><./figures/same-odd.png>]
-File: figures/same-even.png Graphic file (type png)
-<use figures/same-even.png>
-Package luatex.def Info: figures/same-even.png  used on input line 165.
-(luatex.def)             Requested size: 46.09393pt x 150.54681pt.
-File: figures/same-odd.png Graphic file (type png)
-<use figures/same-odd.png>
-Package luatex.def Info: figures/same-odd.png  used on input line 165.
-(luatex.def)             Requested size: 46.09393pt x 150.54681pt.
+]
+File: figures/leftcw.png Graphic file (type png)
+<use figures/leftcw.png>
+Package luatex.def Info: figures/leftcw.png  used on input line 134.
+(luatex.def)             Requested size: 61.45703pt x 46.08804pt.
+File: figures/leftccw.png Graphic file (type png)
+<use figures/leftccw.png>
+Package luatex.def Info: figures/leftccw.png  used on input line 134.
+(luatex.def)             Requested size: 61.45703pt x 46.08804pt.
+File: figures/rightcw.png Graphic file (type png)
+<use figures/rightcw.png>
+Package luatex.def Info: figures/rightcw.png  used on input line 134.
+(luatex.def)             Requested size: 61.45703pt x 46.08804pt.
+File: figures/rightccw.png Graphic file (type png)
+<use figures/rightccw.png>
+Package luatex.def Info: figures/rightccw.png  used on input line 134.
+(luatex.def)             Requested size: 61.45703pt x 46.08804pt.
  [47
 
 
@@ -2111,7 +2055,18 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.46'
 
-] [48
+]
+<figures/diff-even.png, id=557, 1736.4875pt x 451.6875pt>
+File: figures/diff-even.png Graphic file (type png)
+<use figures/diff-even.png>
+Package luatex.def Info: figures/diff-even.png  used on input line 163.
+(luatex.def)             Requested size: 153.64493pt x 39.96089pt.
+<figures/diff-odd.png, id=558, 1736.4875pt x 451.6875pt>
+File: figures/diff-odd.png Graphic file (type png)
+<use figures/diff-odd.png>
+Package luatex.def Info: figures/diff-odd.png  used on input line 163.
+(luatex.def)             Requested size: 153.64493pt x 39.96089pt.
+ [48
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -2119,7 +2074,16 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.47'
 
-] [49
+]
+File: figures/diff-even.png Graphic file (type png)
+<use figures/diff-even.png>
+Package luatex.def Info: figures/diff-even.png  used on input line 163.
+(luatex.def)             Requested size: 153.64493pt x 39.96089pt.
+File: figures/diff-odd.png Graphic file (type png)
+<use figures/diff-odd.png>
+Package luatex.def Info: figures/diff-odd.png  used on input line 163.
+(luatex.def)             Requested size: 153.64493pt x 39.96089pt.
+ [49
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -2127,7 +2091,16 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.48'
 
-] [50
+<./figures/diff-even.png><./figures/diff-odd.png>]
+File: figures/diff-even.png Graphic file (type png)
+<use figures/diff-even.png>
+Package luatex.def Info: figures/diff-even.png  used on input line 163.
+(luatex.def)             Requested size: 153.64493pt x 39.96089pt.
+File: figures/diff-odd.png Graphic file (type png)
+<use figures/diff-odd.png>
+Package luatex.def Info: figures/diff-odd.png  used on input line 163.
+(luatex.def)             Requested size: 153.64493pt x 39.96089pt.
+ [50
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -2136,27 +2109,17 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 warning  (pdf backend): ignoring duplicate destination with the name 'page.49'
 
 ]
-File: figures/leftcw.png Graphic file (type png)
-<use figures/leftcw.png>
-Package luatex.def Info: figures/leftcw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-File: figures/rightcw.png Graphic file (type png)
-<use figures/rightcw.png>
-Package luatex.def Info: figures/rightcw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-File: figures/leftccw.png Graphic file (type png)
-<use figures/leftccw.png>
-Package luatex.def Info: figures/leftccw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-File: figures/rightccw.png Graphic file (type png)
-<use figures/rightccw.png>
-Package luatex.def Info: figures/rightccw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-
-Overfull \vbox (6.76605pt too high) detected at line 202
- []
-
-[51
+<figures/same-even.png, id=599, 1204.5pt x 3934.7pt>
+File: figures/same-even.png Graphic file (type png)
+<use figures/same-even.png>
+Package luatex.def Info: figures/same-even.png  used on input line 198.
+(luatex.def)             Requested size: 46.09393pt x 150.51678pt.
+<figures/same-odd.png, id=600, 903.375pt x 2951.025pt>
+File: figures/same-odd.png Graphic file (type png)
+<use figures/same-odd.png>
+Package luatex.def Info: figures/same-odd.png  used on input line 198.
+(luatex.def)             Requested size: 46.09393pt x 150.5318pt.
+ [51
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -2164,28 +2127,18 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.50'
 
+
+warning  (pdf backend): pop empty color page stack 0
 ]
-File: figures/leftcw.png Graphic file (type png)
-<use figures/leftcw.png>
-Package luatex.def Info: figures/leftcw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-File: figures/rightcw.png Graphic file (type png)
-<use figures/rightcw.png>
-Package luatex.def Info: figures/rightcw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-File: figures/leftccw.png Graphic file (type png)
-<use figures/leftccw.png>
-Package luatex.def Info: figures/leftccw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-File: figures/rightccw.png Graphic file (type png)
-<use figures/rightccw.png>
-Package luatex.def Info: figures/rightccw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-
-Overfull \vbox (6.76605pt too high) detected at line 202
- []
-
-[52
+File: figures/same-even.png Graphic file (type png)
+<use figures/same-even.png>
+Package luatex.def Info: figures/same-even.png  used on input line 198.
+(luatex.def)             Requested size: 46.09393pt x 150.51678pt.
+File: figures/same-odd.png Graphic file (type png)
+<use figures/same-odd.png>
+Package luatex.def Info: figures/same-odd.png  used on input line 198.
+(luatex.def)             Requested size: 46.09393pt x 150.5318pt.
+ [52
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -2193,28 +2146,16 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.51'
 
-]
-File: figures/leftcw.png Graphic file (type png)
-<use figures/leftcw.png>
-Package luatex.def Info: figures/leftcw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-File: figures/rightcw.png Graphic file (type png)
-<use figures/rightcw.png>
-Package luatex.def Info: figures/rightcw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-File: figures/leftccw.png Graphic file (type png)
-<use figures/leftccw.png>
-Package luatex.def Info: figures/leftccw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-File: figures/rightccw.png Graphic file (type png)
-<use figures/rightccw.png>
-Package luatex.def Info: figures/rightccw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-
-Overfull \vbox (6.76605pt too high) detected at line 202
- []
-
-[53
+<./figures/same-even.png><./figures/same-odd.png>]
+File: figures/same-even.png Graphic file (type png)
+<use figures/same-even.png>
+Package luatex.def Info: figures/same-even.png  used on input line 198.
+(luatex.def)             Requested size: 46.09393pt x 150.51678pt.
+File: figures/same-odd.png Graphic file (type png)
+<use figures/same-odd.png>
+Package luatex.def Info: figures/same-odd.png  used on input line 198.
+(luatex.def)             Requested size: 46.09393pt x 150.5318pt.
+ [53
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -2222,28 +2163,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.52'
 
-]
-File: figures/leftcw.png Graphic file (type png)
-<use figures/leftcw.png>
-Package luatex.def Info: figures/leftcw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-File: figures/rightcw.png Graphic file (type png)
-<use figures/rightcw.png>
-Package luatex.def Info: figures/rightcw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-File: figures/leftccw.png Graphic file (type png)
-<use figures/leftccw.png>
-Package luatex.def Info: figures/leftccw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-File: figures/rightccw.png Graphic file (type png)
-<use figures/rightccw.png>
-Package luatex.def Info: figures/rightccw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-
-Overfull \vbox (6.76605pt too high) detected at line 202
- []
-
-[54
+] [54
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -2251,28 +2171,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.53'
 
-]
-File: figures/leftcw.png Graphic file (type png)
-<use figures/leftcw.png>
-Package luatex.def Info: figures/leftcw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-File: figures/rightcw.png Graphic file (type png)
-<use figures/rightcw.png>
-Package luatex.def Info: figures/rightcw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-File: figures/leftccw.png Graphic file (type png)
-<use figures/leftccw.png>
-Package luatex.def Info: figures/leftccw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-File: figures/rightccw.png Graphic file (type png)
-<use figures/rightccw.png>
-Package luatex.def Info: figures/rightccw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-
-Overfull \vbox (12.76605pt too high) detected at line 202
- []
-
-[55
+] [55
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -2283,25 +2182,9 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.54'
 ]
 File: figures/leftcw.png Graphic file (type png)
 <use figures/leftcw.png>
-Package luatex.def Info: figures/leftcw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-File: figures/rightcw.png Graphic file (type png)
-<use figures/rightcw.png>
-Package luatex.def Info: figures/rightcw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-File: figures/leftccw.png Graphic file (type png)
-<use figures/leftccw.png>
-Package luatex.def Info: figures/leftccw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-File: figures/rightccw.png Graphic file (type png)
-<use figures/rightccw.png>
-Package luatex.def Info: figures/rightccw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-
-Overfull \vbox (6.76605pt too high) detected at line 202
- []
-
-[56
+Package luatex.def Info: figures/leftcw.png  used on input line 230.
+(luatex.def)             Requested size: 92.1879pt x 69.13208pt.
+ [56
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -2309,28 +2192,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.55'
 
-]
-File: figures/leftcw.png Graphic file (type png)
-<use figures/leftcw.png>
-Package luatex.def Info: figures/leftcw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-File: figures/rightcw.png Graphic file (type png)
-<use figures/rightcw.png>
-Package luatex.def Info: figures/rightcw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-File: figures/leftccw.png Graphic file (type png)
-<use figures/leftccw.png>
-Package luatex.def Info: figures/leftccw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-File: figures/rightccw.png Graphic file (type png)
-<use figures/rightccw.png>
-Package luatex.def Info: figures/rightccw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-
-Overfull \vbox (12.76605pt too high) detected at line 202
- []
-
-[57
+] [57
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -2339,27 +2201,11 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 warning  (pdf backend): ignoring duplicate destination with the name 'page.56'
 
 ]
-File: figures/leftcw.png Graphic file (type png)
-<use figures/leftcw.png>
-Package luatex.def Info: figures/leftcw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-File: figures/rightcw.png Graphic file (type png)
-<use figures/rightcw.png>
-Package luatex.def Info: figures/rightcw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-File: figures/leftccw.png Graphic file (type png)
-<use figures/leftccw.png>
-Package luatex.def Info: figures/leftccw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
 File: figures/rightccw.png Graphic file (type png)
 <use figures/rightccw.png>
-Package luatex.def Info: figures/rightccw.png  used on input line 202.
-(luatex.def)             Requested size: 92.1879pt x 69.12863pt.
-
-Overfull \vbox (6.47974pt too high) detected at line 202
- []
-
-[58
+Package luatex.def Info: figures/rightccw.png  used on input line 230.
+(luatex.def)             Requested size: 92.1879pt x 69.13208pt.
+ [58
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -2367,29 +2213,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.57'
 
-])
-\openout2 = sections/03-moves.aux
- (./sections/03-moves.tex
-<figures/twist-before.png, id=340, 1224.575pt x 1129.21875pt>
-File: figures/twist-before.png Graphic file (type png)
-<use figures/twist-before.png>
-Package luatex.def Info: figures/twist-before.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
-<figures/twist-towards.png, id=341, 1224.575pt x 1129.21875pt>
-File: figures/twist-towards.png Graphic file (type png)
-<use figures/twist-towards.png>
-Package luatex.def Info: figures/twist-towards.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
-File: figures/twist-before.png Graphic file (type png)
-<use figures/twist-before.png>
-Package luatex.def Info: figures/twist-before.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
-<figures/twist-away.png, id=342, 1224.575pt x 1129.21875pt>
-File: figures/twist-away.png Graphic file (type png)
-<use figures/twist-away.png>
-Package luatex.def Info: figures/twist-away.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
- [59
+] [59
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -2398,26 +2222,11 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 warning  (pdf backend): ignoring duplicate destination with the name 'page.58'
 
 ]
-File: figures/twist-before.png Graphic file (type png)
-<use figures/twist-before.png>
-Package luatex.def Info: figures/twist-before.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
-File: figures/twist-towards.png Graphic file (type png)
-<use figures/twist-towards.png>
-Package luatex.def Info: figures/twist-towards.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
-File: figures/twist-before.png Graphic file (type png)
-<use figures/twist-before.png>
-Package luatex.def Info: figures/twist-before.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
-File: figures/twist-away.png Graphic file (type png)
-<use figures/twist-away.png>
-Package luatex.def Info: figures/twist-away.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
+File: figures/leftcw.png Graphic file (type png)
+<use figures/leftcw.png>
+Package luatex.def Info: figures/leftcw.png  used on input line 230.
+(luatex.def)             Requested size: 92.1879pt x 69.13208pt.
  [60
-
-
-
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -2425,25 +2234,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.59'
 
-<./figures/twist-before.png><./figures/twist-towards.png><./figures/twist-away.p
-ng>]
-File: figures/twist-before.png Graphic file (type png)
-<use figures/twist-before.png>
-Package luatex.def Info: figures/twist-before.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
-File: figures/twist-towards.png Graphic file (type png)
-<use figures/twist-towards.png>
-Package luatex.def Info: figures/twist-towards.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
-File: figures/twist-before.png Graphic file (type png)
-<use figures/twist-before.png>
-Package luatex.def Info: figures/twist-before.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
-File: figures/twist-away.png Graphic file (type png)
-<use figures/twist-away.png>
-Package luatex.def Info: figures/twist-away.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
- [61
+] [61
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -2452,22 +2243,10 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 warning  (pdf backend): ignoring duplicate destination with the name 'page.60'
 
 ]
-File: figures/twist-before.png Graphic file (type png)
-<use figures/twist-before.png>
-Package luatex.def Info: figures/twist-before.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
-File: figures/twist-towards.png Graphic file (type png)
-<use figures/twist-towards.png>
-Package luatex.def Info: figures/twist-towards.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
-File: figures/twist-before.png Graphic file (type png)
-<use figures/twist-before.png>
-Package luatex.def Info: figures/twist-before.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
-File: figures/twist-away.png Graphic file (type png)
-<use figures/twist-away.png>
-Package luatex.def Info: figures/twist-away.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
+File: figures/rightcw.png Graphic file (type png)
+<use figures/rightcw.png>
+Package luatex.def Info: figures/rightcw.png  used on input line 230.
+(luatex.def)             Requested size: 92.1879pt x 69.13208pt.
  [62
 
 
@@ -2476,24 +2255,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.61'
 
-]
-File: figures/twist-before.png Graphic file (type png)
-<use figures/twist-before.png>
-Package luatex.def Info: figures/twist-before.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
-File: figures/twist-towards.png Graphic file (type png)
-<use figures/twist-towards.png>
-Package luatex.def Info: figures/twist-towards.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
-File: figures/twist-before.png Graphic file (type png)
-<use figures/twist-before.png>
-Package luatex.def Info: figures/twist-before.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
-File: figures/twist-away.png Graphic file (type png)
-<use figures/twist-away.png>
-Package luatex.def Info: figures/twist-away.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
- [63
+] [63
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
@@ -2502,865 +2264,40 @@ warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 warning  (pdf backend): ignoring duplicate destination with the name 'page.62'
 
 ]
-File: figures/twist-before.png Graphic file (type png)
-<use figures/twist-before.png>
-Package luatex.def Info: figures/twist-before.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
-File: figures/twist-towards.png Graphic file (type png)
-<use figures/twist-towards.png>
-Package luatex.def Info: figures/twist-towards.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
-File: figures/twist-before.png Graphic file (type png)
-<use figures/twist-before.png>
-Package luatex.def Info: figures/twist-before.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
-File: figures/twist-away.png Graphic file (type png)
-<use figures/twist-away.png>
-Package luatex.def Info: figures/twist-away.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
- [64
+Overfull \hbox (11.54633pt too wide) detected at line 240
+\LMS/ntxsy/m/n/10.95 »\T1/LinuxBiolinumT-TLF/m/it/10.95 n\LMS/ntxsy/m/n/10.95 
+¼\T1/LinuxBiolinumT-TLF/m/it/10.95 L\T1/LinuxBiolinumT-TLF/m/n/10.95 1\LMS/ntx
+sy/m/n/10.95 »\T1/LinuxBiolinumT-TLF/m/it/10.95 f\LMS/ntxsy/m/n/10.95 ¼ \OT1/
+cmss/m/n/10.95 : \T1/LinuxBiolinumT-TLF/m/it/10.95 x[]\LMS/ntxsy/m/n/10.95 ¹\T
+1/LinuxBiolinumT-TLF/m/it/10.95 o\LMS/ntxsy/m/n/10.95 º \OT1/cmss/m/n/10.95 : 
+\LMS/ntxsy/m/n/10.95 »\T1/LinuxBiolinumT-TLF/m/it/10.95 n\LMS/ntxsy/m/n/10.95 
+¼\T1/LinuxBiolinumT-TLF/m/it/10.95 R\T1/LinuxBiolinumT-TLF/m/n/10.95 5\LMS/ntx
+sy/m/n/10.95 »\T1/LinuxBiolinumT-TLF/m/it/10.95 f\LMS/ntxsy/m/n/10.95 ¼ \OT1/
+cmss/m/n/10.95 : \T1/LinuxBiolinumT-TLF/m/it/10.95 x[]\LMS/ntxsy/m/n/10.95 ¹\T
+1/LinuxBiolinumT-TLF/m/it/10.95 o\LMS/ntxsy/m/n/10.95 º \OT1/cmss/m/n/10.95 : 
+\LMS/ntxsy/m/n/10.95 »\T1/LinuxBiolinumT-TLF/m/it/10.95 n\LMS/ntxsy/m/n/10.95 
+¼[]»\T1/LinuxBiolinumT-TLF/m/it/10.95 f\LMS/ntxsy/m/n/10.95 ¼ \OT1/cmss/m/n/
+10.95 : \T1/LinuxBiolinumT-TLF/m/it/10.95 x[]\LMS/ntxsy/m/n/10.95 ¹\T1/LinuxBi
+olinumT-TLF/m/it/10.95 u\LMS/ntxsy/m/n/10.95 º \OT1/cmss/m/n/10.95 : \T1/Linux
+BiolinumT-TLF/m/it/10.95 x[]\LMS/ntxsy/m/n/10.95 ¹\T1/LinuxBiolinumT-TLF/m/it/
+10.95 u\LMS/ntxsy/m/n/10.95 º \OT1/cmss/m/n/10.95 : []
+ []
+
+File: figures/star-pick.png Graphic file (type png)
+<use figures/star-pick.png>
+Package luatex.def Info: figures/star-pick.png  used on input line 240.
+(luatex.def)             Requested size: 215.10196pt x 215.01997pt.
+
+Overfull \vbox (22.2456pt too high) detected at line 240
+ []
+
+[64
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
 63'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.63'
-
-]
-File: figures/twist-before.png Graphic file (type png)
-<use figures/twist-before.png>
-Package luatex.def Info: figures/twist-before.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
-File: figures/twist-towards.png Graphic file (type png)
-<use figures/twist-towards.png>
-Package luatex.def Info: figures/twist-towards.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
-File: figures/twist-before.png Graphic file (type png)
-<use figures/twist-before.png>
-Package luatex.def Info: figures/twist-before.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
-File: figures/twist-away.png Graphic file (type png)
-<use figures/twist-away.png>
-Package luatex.def Info: figures/twist-away.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
- [65
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-64'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.64'
-
-]
-File: figures/twist-before.png Graphic file (type png)
-<use figures/twist-before.png>
-Package luatex.def Info: figures/twist-before.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
-File: figures/twist-towards.png Graphic file (type png)
-<use figures/twist-towards.png>
-Package luatex.def Info: figures/twist-towards.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
-File: figures/twist-before.png Graphic file (type png)
-<use figures/twist-before.png>
-Package luatex.def Info: figures/twist-before.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
-File: figures/twist-away.png Graphic file (type png)
-<use figures/twist-away.png>
-Package luatex.def Info: figures/twist-away.png  used on input line 23.
-(luatex.def)             Requested size: 46.0916pt x 42.49033pt.
- [66
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-65'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.65'
-
-] [67
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-66'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.66'
-
-] [68
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-67'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.67'
-
-] [69
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-68'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.68'
-
-] [70
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-69'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.69'
-
-] [71
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-70'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.70'
-
-] [72
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-71'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.71'
-
-] [73
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-72'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.72'
-
-] [74
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-73'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.73'
-
-]
-<figures/pick-before.png, id=433, 2910.875pt x 2710.125pt>
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-<figures/pick-under-below.png, id=434, 2910.875pt x 2710.125pt>
-File: figures/pick-under-below.png Graphic file (type png)
-<use figures/pick-under-below.png>
-Package luatex.def Info: figures/pick-under-below.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-<figures/pick-under-above.png, id=435, 2910.875pt x 2710.125pt>
-File: figures/pick-under-above.png Graphic file (type png)
-<use figures/pick-under-above.png>
-Package luatex.def Info: figures/pick-under-above.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-<figures/pick-over-below.png, id=436, 2910.875pt x 2710.125pt>
-File: figures/pick-over-below.png Graphic file (type png)
-<use figures/pick-over-below.png>
-Package luatex.def Info: figures/pick-over-below.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-<figures/pick-over-above.png, id=437, 2910.875pt x 2710.125pt>
-File: figures/pick-over-above.png Graphic file (type png)
-<use figures/pick-over-above.png>
-Package luatex.def Info: figures/pick-over-above.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
-
- []
-
-[75
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-74'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.74'
-
-]
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-under-below.png Graphic file (type png)
-<use figures/pick-under-below.png>
-Package luatex.def Info: figures/pick-under-below.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-under-above.png Graphic file (type png)
-<use figures/pick-under-above.png>
-Package luatex.def Info: figures/pick-under-above.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-over-below.png Graphic file (type png)
-<use figures/pick-over-below.png>
-Package luatex.def Info: figures/pick-over-below.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-over-above.png Graphic file (type png)
-<use figures/pick-over-above.png>
-Package luatex.def Info: figures/pick-over-above.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
-
- []
-
-[76
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-75'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.75'
-
-<./figures/pick-before.png><./figures/pick-under-below.png><./figures/pick-under
--above.png><./figures/pick-over-below.png><./figures/pick-over-above.png>]
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-under-below.png Graphic file (type png)
-<use figures/pick-under-below.png>
-Package luatex.def Info: figures/pick-under-below.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-under-above.png Graphic file (type png)
-<use figures/pick-under-above.png>
-Package luatex.def Info: figures/pick-under-above.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-over-below.png Graphic file (type png)
-<use figures/pick-over-below.png>
-Package luatex.def Info: figures/pick-over-below.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-over-above.png Graphic file (type png)
-<use figures/pick-over-above.png>
-Package luatex.def Info: figures/pick-over-above.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
-
- []
-
-[77
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-76'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.76'
-
-]
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-under-below.png Graphic file (type png)
-<use figures/pick-under-below.png>
-Package luatex.def Info: figures/pick-under-below.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-under-above.png Graphic file (type png)
-<use figures/pick-under-above.png>
-Package luatex.def Info: figures/pick-under-above.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-over-below.png Graphic file (type png)
-<use figures/pick-over-below.png>
-Package luatex.def Info: figures/pick-over-below.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-over-above.png Graphic file (type png)
-<use figures/pick-over-above.png>
-Package luatex.def Info: figures/pick-over-above.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
-
- []
-
-[78
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-77'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.77'
-
-]
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-under-below.png Graphic file (type png)
-<use figures/pick-under-below.png>
-Package luatex.def Info: figures/pick-under-below.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-under-above.png Graphic file (type png)
-<use figures/pick-under-above.png>
-Package luatex.def Info: figures/pick-under-above.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-over-below.png Graphic file (type png)
-<use figures/pick-over-below.png>
-Package luatex.def Info: figures/pick-over-below.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-over-above.png Graphic file (type png)
-<use figures/pick-over-above.png>
-Package luatex.def Info: figures/pick-over-above.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
-
- []
-
-[79
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-78'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.78'
-
-]
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-under-below.png Graphic file (type png)
-<use figures/pick-under-below.png>
-Package luatex.def Info: figures/pick-under-below.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-under-above.png Graphic file (type png)
-<use figures/pick-under-above.png>
-Package luatex.def Info: figures/pick-under-above.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-over-below.png Graphic file (type png)
-<use figures/pick-over-below.png>
-Package luatex.def Info: figures/pick-over-below.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-over-above.png Graphic file (type png)
-<use figures/pick-over-above.png>
-Package luatex.def Info: figures/pick-over-above.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
-
- []
-
-[80
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-79'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.79'
-
-]
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-under-below.png Graphic file (type png)
-<use figures/pick-under-below.png>
-Package luatex.def Info: figures/pick-under-below.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-under-above.png Graphic file (type png)
-<use figures/pick-under-above.png>
-Package luatex.def Info: figures/pick-under-above.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-over-below.png Graphic file (type png)
-<use figures/pick-over-below.png>
-Package luatex.def Info: figures/pick-over-below.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-over-above.png Graphic file (type png)
-<use figures/pick-over-above.png>
-Package luatex.def Info: figures/pick-over-above.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
-
- []
-
-[81
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-80'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.80'
-
-]
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-under-below.png Graphic file (type png)
-<use figures/pick-under-below.png>
-Package luatex.def Info: figures/pick-under-below.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-under-above.png Graphic file (type png)
-<use figures/pick-under-above.png>
-Package luatex.def Info: figures/pick-under-above.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-over-below.png Graphic file (type png)
-<use figures/pick-over-below.png>
-Package luatex.def Info: figures/pick-over-below.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-over-above.png Graphic file (type png)
-<use figures/pick-over-above.png>
-Package luatex.def Info: figures/pick-over-above.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
-
- []
-
-[82
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-81'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.81'
-
-]
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-under-below.png Graphic file (type png)
-<use figures/pick-under-below.png>
-Package luatex.def Info: figures/pick-under-below.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-under-above.png Graphic file (type png)
-<use figures/pick-under-above.png>
-Package luatex.def Info: figures/pick-under-above.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-over-below.png Graphic file (type png)
-<use figures/pick-over-below.png>
-Package luatex.def Info: figures/pick-over-below.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-before.png Graphic file (type png)
-<use figures/pick-before.png>
-Package luatex.def Info: figures/pick-before.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-File: figures/pick-over-above.png Graphic file (type png)
-<use figures/pick-over-above.png>
-Package luatex.def Info: figures/pick-over-above.png  used on input line 74.
-(luatex.def)             Requested size: 43.01973pt x 40.02982pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
-
- []
-
-[83
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-82'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.82'
-
-]
-<figures/star-before.png, id=489, 5714.34875pt x 5714.34875pt>
-File: figures/star-before.png Graphic file (type png)
-<use figures/star-before.png>
-Package luatex.def Info: figures/star-before.png  used on input line 97.
-(luatex.def)             Requested size: 82.96957pt x 82.92133pt.
-<figures/star-pick.png, id=490, 5714.34875pt x 5714.34875pt>
-File: figures/star-pick.png Graphic file (type png)
-<use figures/star-pick.png>
-Package luatex.def Info: figures/star-pick.png  used on input line 97.
-(luatex.def)             Requested size: 82.96957pt x 82.92133pt.
-<figures/star-pick-twist.png, id=491, 5714.34875pt x 5714.34875pt>
-File: figures/star-pick-twist.png Graphic file (type png)
-<use figures/star-pick-twist.png>
-Package luatex.def Info: figures/star-pick-twist.png  used on input line 97.
-(luatex.def)             Requested size: 82.96957pt x 82.92133pt.
- [84
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-83'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.83'
-
-]
-File: figures/star-before.png Graphic file (type png)
-<use figures/star-before.png>
-Package luatex.def Info: figures/star-before.png  used on input line 97.
-(luatex.def)             Requested size: 82.96957pt x 82.92133pt.
-File: figures/star-pick.png Graphic file (type png)
-<use figures/star-pick.png>
-Package luatex.def Info: figures/star-pick.png  used on input line 97.
-(luatex.def)             Requested size: 82.96957pt x 82.92133pt.
-File: figures/star-pick-twist.png Graphic file (type png)
-<use figures/star-pick-twist.png>
-Package luatex.def Info: figures/star-pick-twist.png  used on input line 97.
-(luatex.def)             Requested size: 82.96957pt x 82.92133pt.
- [85
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-84'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.84'
-
-<./figures/star-before.png><./figures/star-pick.png><./figures/star-pick-twist.p
-ng>]
-File: figures/star-before.png Graphic file (type png)
-<use figures/star-before.png>
-Package luatex.def Info: figures/star-before.png  used on input line 97.
-(luatex.def)             Requested size: 82.96957pt x 82.92133pt.
-File: figures/star-pick.png Graphic file (type png)
-<use figures/star-pick.png>
-Package luatex.def Info: figures/star-pick.png  used on input line 97.
-(luatex.def)             Requested size: 82.96957pt x 82.92133pt.
-File: figures/star-pick-twist.png Graphic file (type png)
-<use figures/star-pick-twist.png>
-Package luatex.def Info: figures/star-pick-twist.png  used on input line 97.
-(luatex.def)             Requested size: 82.96957pt x 82.92133pt.
- [86
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-85'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.85'
-
-]
-File: figures/star-before.png Graphic file (type png)
-<use figures/star-before.png>
-Package luatex.def Info: figures/star-before.png  used on input line 97.
-(luatex.def)             Requested size: 82.96957pt x 82.92133pt.
-File: figures/star-pick.png Graphic file (type png)
-<use figures/star-pick.png>
-Package luatex.def Info: figures/star-pick.png  used on input line 97.
-(luatex.def)             Requested size: 82.96957pt x 82.92133pt.
-File: figures/star-pick-twist.png Graphic file (type png)
-<use figures/star-pick-twist.png>
-Package luatex.def Info: figures/star-pick-twist.png  used on input line 97.
-(luatex.def)             Requested size: 82.96957pt x 82.92133pt.
- [87
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-86'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.86'
-
-]
-File: figures/star-before.png Graphic file (type png)
-<use figures/star-before.png>
-Package luatex.def Info: figures/star-before.png  used on input line 97.
-(luatex.def)             Requested size: 82.96957pt x 82.92133pt.
-File: figures/star-pick.png Graphic file (type png)
-<use figures/star-pick.png>
-Package luatex.def Info: figures/star-pick.png  used on input line 97.
-(luatex.def)             Requested size: 82.96957pt x 82.92133pt.
-File: figures/star-pick-twist.png Graphic file (type png)
-<use figures/star-pick-twist.png>
-Package luatex.def Info: figures/star-pick-twist.png  used on input line 97.
-(luatex.def)             Requested size: 82.96957pt x 82.92133pt.
- [88
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-87'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.87'
-
-]
-File: figures/star-before.png Graphic file (type png)
-<use figures/star-before.png>
-Package luatex.def Info: figures/star-before.png  used on input line 115.
-(luatex.def)             Requested size: 184.3758pt x 184.32774pt.
-
-Overfull \vbox (48.67735pt too high) detected at line 115
- []
-
-[89
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-88'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.88'
-
-]
-File: figures/star-before.png Graphic file (type png)
-<use figures/star-before.png>
-Package luatex.def Info: figures/star-before.png  used on input line 115.
-(luatex.def)             Requested size: 184.3758pt x 184.32774pt.
-
-Overfull \vbox (48.67735pt too high) detected at line 115
- []
-
-[90
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-89'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.89'
-
-]
-File: figures/star-before.png Graphic file (type png)
-<use figures/star-before.png>
-Package luatex.def Info: figures/star-before.png  used on input line 115.
-(luatex.def)             Requested size: 184.3758pt x 184.32774pt.
-
-Overfull \vbox (48.67735pt too high) detected at line 115
- []
-
-[91
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-90'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.90'
-
-] [92
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-91'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.91'
-
-] [93
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-92'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.92'
-
-] [94
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-93'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.93'
-
-] [95
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-94'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.94'
-
-] [96
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-95'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.95'
-
-] [97
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-96'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.96'
-
-] [98
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-97'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.97'
-
-] [99
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-98'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.98'
-
-] [100
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-99'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.99'
-
-] [101
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-100'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.100'
-
-] [102
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-101'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.101'
-
-] [103
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-102'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.102'
-
-] [104
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-103'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.103'
-
-]
-File: figures/star-before.png Graphic file (type png)
-<use figures/star-before.png>
-Package luatex.def Info: figures/star-before.png  used on input line 159.
-(luatex.def)             Requested size: 122.91406pt x 122.8561pt.
-File: figures/star-pick-twist.png Graphic file (type png)
-<use figures/star-pick-twist.png>
-Package luatex.def Info: figures/star-pick-twist.png  used on input line 159.
-(luatex.def)             Requested size: 122.91406pt x 122.8561pt.
- [105
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-104'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.104'
-
-])
-\openout2 = sections/04-extend.aux
- (./sections/04-extend.tex
-<figures/ext1.png, id=608, 3713.875pt x 1355.0625pt>
-File: figures/ext1.png Graphic file (type png)
-<use figures/ext1.png>
-Package luatex.def Info: figures/ext1.png  used on input line 7.
-(luatex.def)             Requested size: 153.64493pt x 56.05415pt.
-<figures/ext2.png, id=609, 3713.875pt x 1355.0625pt>
-File: figures/ext2.png Graphic file (type png)
-<use figures/ext2.png>
-Package luatex.def Info: figures/ext2.png  used on input line 7.
-(luatex.def)             Requested size: 153.64493pt x 56.05415pt.
- [106
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-105'
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.105'
 
 ])
 \tf@nav=\write6
@@ -3372,27 +2309,21 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.105'
 \tf@snm=\write8
 
 \openout8 = main.snm
- [107
+ [65
 
 
-
-
-
-\@writefile{toc}{\beamer@sectionintoc {4}{Extension Cancellation}{106}{0}{4}}
-\@writefile{nav}{\headcommand {\beamer@sectionpages {59}{105}}}
-\@writefile{nav}{\headcommand {\beamer@subsectionpages {67}{105}}}
-\@writefile{nav}{\headcommand {\sectionentry {4}{Extension Cancellation}{106}{E
-xtension Cancellation}{0}}}
-\@writefile{nav}{\headcommand {\slideentry {4}{0}{1}{106/106}{}{0}}}
-\@writefile{nav}{\headcommand {\beamer@framepages {106}{106}}}
+\@writefile{nav}{\headcommand {\slideentry {2}{3}{5}{64/64}{Identifying String 
+Segments }{0}}}
+\@writefile{nav}{\headcommand {\beamer@framepages {64}{64}}}
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Navigation
-106'
+64'
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.106'
+warning  (pdf backend): ignoring duplicate destination with the name 'page.64'
 
-<./figures/ext1.png><./figures/ext2.png>] (./main.aux (./sections/01-string.aux
-) (./sections/02-repr.aux) (./sections/03-moves.aux) (./sections/04-extend.aux))
+
+warning  (pdf backend): pop empty color page stack 0
+] (./main.aux (./sections/01-string.aux) (./sections/02-repr.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
@@ -3402,27 +2333,22 @@ L3 programming layer <2023-11-09>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  B9B2A5BB5FB2FA90FCDE347ED85631E7;1060.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D96B3B34E7B187F9AA3DB2197470CCE1;675.
 )
 
 Here is how much of LuaTeX's memory you used:
- 34552 strings out of 476598
+ 33889 strings out of 476598
  100000,1977958 words of node,token memory allocated
- 6583 words of node memory still in use:
-   45 hlist, 18 vlist, 6 rule, 5 disc, 3 local_par, 63 glue, 16 kern, 13 penalty
-, 474 glyph, 372 attribute, 65 glue_spec, 372 attribute_list, 8 write, 2 pdf_des
-t, 18 pdf_colorstack, 2 pdf_setmatrix, 2 pdf_save, 2 pdf_restore nodes
-   avail lists: 2:1606,3:529,4:307,5:633,6:55,7:3673,8:65,9:1261,10:17,11:171
- 54375 multiletter control sequences out of 65536+600000
- 179 fonts using 15079799 bytes
- 101i,23n,101p,378b,929s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 14943 words of node memory still in use:
+   145 hlist, 30 vlist, 16 rule, 56 disc, 22 local_par, 10 math, 408 glue, 113 k
+ern, 71 penalty, 902 glyph, 384 attribute, 65 glue_spec, 384 attribute_list, 8 w
+rite, 31 pdf_literal, 3 pdf_start_link, 3 pdf_end_link, 2 pdf_dest, 3 pdf_action
+, 81 pdf_colorstack, 2 pdf_setmatrix, 2 pdf_save, 2 pdf_restore nodes
+   avail lists: 2:973,3:737,4:406,5:395,6:80,7:3750,8:63,9:714,10:18,11:284
+ 54316 multiletter control sequences out of 65536+600000
+ 204 fonts using 16833359 bytes
+ 101i,11n,101p,378b,811s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_afusau.enc}{/
 usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}</us
 r/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/LibertineMathMI.pfb></u
@@ -3430,16 +2356,15 @@ sr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/LibertineMathMI7.pfb><
 /usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb
 ></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinBiolinumTI.
 pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></u
-sr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/loc
-al/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local
-/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/te
-xlive/2023/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/local/texlive/20
-23/texmf-dist/fonts/type1/public/newtx/txsym.pfb></usr/local/texlive/2023/texmf-
-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on main.pdf (106 pages, 2538295 bytes).
+sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr
+/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/lo
+cal/texlive/2023/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/local/texl
+ive/2023/texmf-dist/fonts/type1/public/newtx/txsym.pfb></usr/local/texlive/2023/
+texmf-dist/fonts/type1/public/newtx/txsys.pfb>
+Output written on main.pdf (64 pages, 982341 bytes).
 
-PDF statistics: 673 PDF objects out of 1000 (max. 8388607)
- 499 compressed objects within 5 object streams
- 222 named destinations out of 1000 (max. 131072)
- 16 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 818 PDF objects out of 1000 (max. 8388607)
+ 566 compressed objects within 6 object streams
+ 134 named destinations out of 1000 (max. 131072)
+ 56 words of extra memory for PDF output out of 10000 (max. 100000000)
 

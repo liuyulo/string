@@ -1,58 +1,43 @@
 \headcommand {\beamer@sectionpages {1}{1}}
 \headcommand {\beamer@subsectionpages {1}{1}}
 \headcommand {\sectionentry {1}{String Figures}{2}{String Figures}{0}}
-\headcommand {\slideentry {1}{0}{1}{2/6}{}{0}}
-\headcommand {\beamer@framepages {2}{6}}
+\headcommand {\slideentry {1}{0}{1}{2/10}{}{0}}
+\headcommand {\beamer@framepages {2}{10}}
 \headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
 \headcommand {\beamer@framepages {1}{1}}
-\headcommand {\slideentry {1}{0}{2}{7/16}{}{0}}
-\headcommand {\beamer@framepages {7}{16}}
-\headcommand {\beamer@sectionpages {2}{16}}
-\headcommand {\beamer@subsectionpages {2}{16}}
-\headcommand {\sectionentry {2}{Representation}{17}{Representation}{0}}
-\headcommand {\beamer@subsectionpages {17}{16}}
-\headcommand {\beamer@subsectionentry {0}{2}{1}{17}{Diagrams}}
-\headcommand {\slideentry {2}{1}{1}{17/23}{Diagrams}{0}}
-\headcommand {\beamer@framepages {17}{23}}
-\headcommand {\beamer@subsectionpages {17}{23}}
-\headcommand {\beamer@subsectionentry {0}{2}{2}{24}{Linear Sequences}}
-\headcommand {\slideentry {2}{2}{1}{24/30}{Linear Sequences}{0}}
-\headcommand {\beamer@framepages {24}{30}}
-\headcommand {\slideentry {2}{2}{2}{31/35}{Linear Sequences}{0}}
-\headcommand {\beamer@framepages {31}{35}}
-\headcommand {\beamer@subsectionpages {24}{35}}
-\headcommand {\beamer@subsectionentry {0}{2}{3}{36}{Identifying String Segments }}
-\headcommand {\slideentry {2}{3}{1}{36/41}{Identifying String Segments }{0}}
-\headcommand {\beamer@framepages {36}{41}}
-\headcommand {\slideentry {2}{3}{2}{42/44}{Identifying String Segments }{0}}
-\headcommand {\beamer@framepages {42}{44}}
-\headcommand {\slideentry {2}{3}{3}{45/47}{Identifying String Segments }{0}}
-\headcommand {\beamer@framepages {45}{47}}
-\headcommand {\slideentry {2}{3}{4}{48/58}{Identifying String Segments }{0}}
-\headcommand {\beamer@framepages {48}{58}}
-\headcommand {\beamer@sectionpages {17}{58}}
-\headcommand {\beamer@subsectionpages {36}{58}}
-\headcommand {\sectionentry {3}{Moves}{59}{Moves}{0}}
-\headcommand {\beamer@subsectionpages {59}{58}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{59}{Twist}}
-\headcommand {\slideentry {3}{1}{1}{59/66}{Twist}{0}}
-\headcommand {\beamer@framepages {59}{66}}
-\headcommand {\beamer@subsectionpages {59}{66}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{67}{Pick}}
-\headcommand {\slideentry {3}{2}{1}{67/74}{Pick}{0}}
-\headcommand {\beamer@framepages {67}{74}}
-\headcommand {\slideentry {3}{2}{2}{75/83}{Pick}{0}}
-\headcommand {\beamer@framepages {75}{83}}
-\headcommand {\slideentry {3}{2}{3}{84/88}{Pick}{0}}
-\headcommand {\beamer@framepages {84}{88}}
-\headcommand {\slideentry {3}{2}{4}{89/91}{Pick}{0}}
-\headcommand {\beamer@framepages {89}{91}}
-\headcommand {\slideentry {3}{2}{5}{92/104}{Pick}{0}}
-\headcommand {\beamer@framepages {92}{104}}
-\headcommand {\slideentry {3}{2}{6}{105/105}{Pick}{0}}
-\headcommand {\beamer@framepages {105}{105}}
-\headcommand {\beamer@partpages {1}{106}}
-\headcommand {\beamer@subsectionpages {106}{106}}
-\headcommand {\beamer@sectionpages {106}{106}}
-\headcommand {\beamer@documentpages {106}}
-\headcommand {\gdef \inserttotalframenumber {18}}
+\headcommand {\slideentry {1}{0}{2}{11/21}{}{0}}
+\headcommand {\beamer@framepages {11}{21}}
+\headcommand {\beamer@sectionpages {2}{21}}
+\headcommand {\beamer@subsectionpages {2}{21}}
+\headcommand {\sectionentry {2}{Representation}{22}{Representation}{0}}
+\headcommand {\beamer@subsectionpages {22}{21}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{22}{Diagrams}}
+\headcommand {\slideentry {2}{1}{1}{22/28}{Diagrams}{0}}
+\headcommand {\beamer@framepages {22}{28}}
+\headcommand {\slideentry {2}{1}{2}{29/29}{Diagrams}{0}}
+\headcommand {\beamer@framepages {29}{29}}
+\headcommand {\beamer@subsectionpages {22}{29}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{30}{Linear Sequences}}
+\headcommand {\slideentry {2}{2}{1}{30/35}{Linear Sequences}{0}}
+\headcommand {\beamer@framepages {30}{35}}
+\headcommand {\slideentry {2}{2}{2}{36/36}{Linear Sequences}{0}}
+\headcommand {\beamer@framepages {36}{36}}
+\headcommand {\slideentry {2}{2}{3}{37/40}{Linear Sequences}{0}}
+\headcommand {\beamer@framepages {37}{40}}
+\headcommand {\slideentry {2}{2}{4}{41/41}{Linear Sequences}{0}}
+\headcommand {\beamer@framepages {41}{41}}
+\headcommand {\beamer@subsectionpages {30}{41}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{42}{Identifying String Segments }}
+\headcommand {\slideentry {2}{3}{1}{42/47}{Identifying String Segments }{0}}
+\headcommand {\beamer@framepages {42}{47}}
+\headcommand {\slideentry {2}{3}{2}{48/50}{Identifying String Segments }{0}}
+\headcommand {\beamer@framepages {48}{50}}
+\headcommand {\slideentry {2}{3}{3}{51/53}{Identifying String Segments }{0}}
+\headcommand {\beamer@framepages {51}{53}}
+\headcommand {\slideentry {2}{3}{4}{54/63}{Identifying String Segments }{0}}
+\headcommand {\beamer@framepages {54}{63}}
+\headcommand {\beamer@partpages {1}{64}}
+\headcommand {\beamer@subsectionpages {42}{64}}
+\headcommand {\beamer@sectionpages {22}{64}}
+\headcommand {\beamer@documentpages {64}}
+\headcommand {\gdef \inserttotalframenumber {14}}

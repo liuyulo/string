@@ -1,0 +1,61 @@
+\newcommand\name{\subsecname: Construction Example}
+\begin{frame}{\name}
+$L1:L5:R2\enspace\xmapsto{\overset\Longleftarrow{R5}(\overline{Lp})}\enspace???$
+
+\begin{itemize}
+    \item Identify $Lp$\\
+    $$\begin{tikzpicture}
+        \node<+> at(0,0){$[n]L1{\color{red}[f]:[n]}L5[f]:[f]R2[n]$};
+        \node<+> at(0,0){$[n]L1{\color{red}[Lp]}L5[f]:[f]R2[n]$};
+        \node<+-> at(0,0){$[n]L1[Lp]L5[f]:[f]R2[n]$};
+    \end{tikzpicture}$$
+    \item<+-> Only the segment between $L5$ and $R2$ is intermediate
+    $$
+      \underline{R2n=L1n}<L1<{\color{red}Lp}=L5n<\underline{L5f=R2f}<{\color{red}R5}
+      $$
+    
+\end{itemize}
+\end{frame}
+
+\begin{frame}{\name}
+$L1:L5:R2\enspace\xmapsto{\overset\Longleftarrow{R5}(\overline{Lp})}\enspace???$\\
+\vfill
+Found $L5f=R2f$ as an intermediate segment
+\begin{itemize}
+    \item<2-> Insert crossings $x_1$ and $x_2$ at intermediate segment
+    \note<4>[item]{under because our finger is going above}
+    $$\begin{tikzpicture}
+        \node<3> at(0,0){$L1:L5:{\color{red}[f]:[f]}:R2$};
+        \node<4> at(0,0){$L1:L5:{\color{red}x_1(u):x_2(u)}:R2$};
+        \node<5-> at(0,0){$L1:L5:x_1(u):x_2(u):R2$};
+    \end{tikzpicture}$$
+    \item<6-> Insert $R5$ at $Lp$ with $x_1$ and $x_2$
+    \note<8>[item]{we insert $x_2:x_1$ because this part has opposite orientation than}
+    $$\begin{tikzpicture}
+        \node<7> at(0,0){$\stackrel\curvearrowright{L1}{\color{red}[Lp]}\stackrel\curvearrowright{L5}:x_1(u):x_2(u):\stackrel\curvearrowright{R2}$};
+        \node<8> at(0,0){$\stackrel\curvearrowright{L1}:{\color{red}x_2(o):\stackrel\curvearrowleft{R5}:x_1(o)}:\stackrel\curvearrowright{L5}:x_1(u):x_2(u):\stackrel\curvearrowright{R2}$};
+        \node<9-> at(0,0){$\stackrel\curvearrowright{L1}:x_2(o):\stackrel\curvearrowleft{R5}:x_1(o):\stackrel\curvearrowright{L5}:x_1(u):x_2(u):\stackrel\curvearrowright{R2}$};
+    \end{tikzpicture}$$
+    \note<10>[item]{towards because $R5$ is traveling towards me to get $Lp$}
+    \item<10-> {Make twist on $R5$ (towards)}
+    $$\begin{tikzpicture}
+        \node<11> at(0,0){$L1:x_2(o):{\color{red}R5}:x_1(o):L5:x_1(u):x_2(u):R2$};
+        \node<12> at(0,0){$L1:x_2(o):{\color{red}x_3(o):R5:x_3(u)}:x_1(o):L5:x_1(u):x_2(u):R2$};
+        \node<13-> at(0,0){$\stackrel\curvearrowright{L1}:x_2(o):{x_3(o):\stackrel\curvearrowright{R5}:x_3(u)}:x_1(o):\stackrel\curvearrowright{L5}:x_1(u):x_2(u):\stackrel\curvearrowright{R2}$};
+    \end{tikzpicture}$$
+\end{itemize}
+\end{frame}
+\note[itemize]{
+\item and this is our final result, lets check with the diagram
+}
+
+\begin{frame}{\name}
+$$\scriptstyle
+L1:L5:R2\enspace\xmapsto{\overset\Longleftarrow{R5}(\overline{Lp})}\enspace\stackrel\curvearrowright{L1}:x_2(o):{x_3(o):\stackrel\curvearrowright{R5}:x_3(u)}:x_1(o):\stackrel\curvearrowright{L5}:x_1(u):x_2(u):\stackrel\curvearrowright{R2}
+$$
+
+\begin{center}
+\g[0.4]{figures/star-before}$\xmapsto{\overset\Longleftarrow{R5}(\overline{Lp})}$
+\g[0.4]{figures/star-pick-twist}
+\end{center}
+\end{frame}

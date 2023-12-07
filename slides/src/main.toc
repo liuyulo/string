@@ -1,8 +1,5 @@
 \beamer@sectionintoc {1}{String Figures}{2}{0}{1}
-\beamer@sectionintoc {2}{Representation}{17}{0}{2}
-\beamer@subsectionintoc {2}{1}{Diagrams}{17}{0}{2}
-\beamer@subsectionintoc {2}{2}{Linear Sequences}{24}{0}{2}
-\beamer@subsectionintoc {2}{3}{Identifying String Segments }{36}{0}{2}
-\beamer@sectionintoc {3}{Moves}{59}{0}{3}
-\beamer@subsectionintoc {3}{1}{Twist}{59}{0}{3}
-\beamer@subsectionintoc {3}{2}{Pick}{67}{0}{3}
+\beamer@sectionintoc {2}{Representation}{22}{0}{2}
+\beamer@subsectionintoc {2}{1}{Diagrams}{22}{0}{2}
+\beamer@subsectionintoc {2}{2}{Linear Sequences}{30}{0}{2}
+\beamer@subsectionintoc {2}{3}{Identifying String Segments }{42}{0}{2}
