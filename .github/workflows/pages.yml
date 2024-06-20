@@ -59,7 +59,7 @@ jobs:
         run: tectonic -X build
         working-directory: ./slides
       - name: Copy PDF files
-        run: find -name '*.pdf' | xargs -t -If mv f ${{ env.BUILD_PATH }}/dist
+        run: find slides -name '*.pdf' | xargs -t -If mv f ${{ env.BUILD_PATH }}/dist
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
