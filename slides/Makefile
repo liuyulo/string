@@ -1,2 +1,2 @@
 main.pdf: main.tex
-	docker run --rm -it -v "$$(pwd):/workdir" texlive/texlive lualatex $?
+	docker run -v "$$(pwd):/workdir" texlive/texlive lualatex $?
