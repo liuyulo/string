@@ -27,8 +27,10 @@ jobs:
 
       - name: Build slides
         run: |
-          cd slides && make main.pdf
-          cp slides/main.pdf ${{ env.BUILD_PATH }}/public/slides.pdf
+          make main.pdf -B
+          make main.pdf -B
+        working-directory: slides
+      - run: cp slides/main.pdf ${{ env.BUILD_PATH }}/public/slides.pdf
 
       - uses: oven-sh/setup-bun@v1
       - name: Setup Pages
