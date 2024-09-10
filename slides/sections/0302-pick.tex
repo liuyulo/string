@@ -6,21 +6,22 @@ Finger $F$ picks a string segment $s$
     \item Written as $F(s)$
 \end{itemize}
 
-\pause Four variations:
-\begin{itemize}[<+(1)->]
+ Four variations:
+\begin{itemize}
     \item $F$ passes \emph{over/under} all intermediate segments
     \item $F$ picks $s$ from \emph{above/below}
     \note<.(1)>[item]{(CAMERA) show all 4 cases on $L1:R1$ with $R5(R1n)$}
 \end{itemize}
 
-\pause Examples
-\begin{itemize}[<+(1)->]
+ Examples
+\begin{itemize}
     \item "$R5$ passes \emph{over} all intermediate segments and picks $Lp$ from \emph{above}" is denoted  as $\overset\Longleftarrow{R5}(\overline{Lp})$
     \item "$R1$ passes \emph{over} all intermediate segments and picks $R5n$ from \emph{below}" is denoted as $\overrightarrow{R1}(\underline{R5n})$
     \note<.(1)>[item]{the first 2 moves makes the star}
     \item "$R4$ passes \emph{below} all intermediate segments and picks $L1n$ from \emph{below}" is denoted as $\underset\Longleftarrow{R4}(\underline{L1n})$
 \end{itemize}
 \end{frame}
+
 \note[itemize]{
 \item have an arrow above the finger means pass \emph{over}, underarrow means pass \emph{under}
 \item an underlined segment means pick the segment from below, overline means from above
@@ -35,22 +36,22 @@ Finger $F$ picks a string segment $s$
 \begin{adjustwidth}{-2em}{-2em}
 Starting with \g{figures/pick-before}$\enspace [n]L1[f]:[f]R1[n]$\\
 \begin{minipage}{0.55\columnwidth}
-\pause $\underleftarrow{R5}(\underline{R1n})$ gives \g[0.3]{figures/pick-under-below}\\
+ $\underleftarrow{R5}(\underline{R1n})$ gives \g[0.3]{figures/pick-under-below}\\
 $L1:x_1(o):x_2(o):R1:x_2(u):R5:x_1(u)$\\
 \vfill
-\pause $\underleftarrow{R5}(\overline{R1n})$ gives \g[0.3]{figures/pick-under-above}\\
+ $\underleftarrow{R5}(\overline{R1n})$ gives \g[0.3]{figures/pick-under-above}\\
 $L1:x_1(o):x_2(o):R1:x_2(u):x_3(u):R5:x_3(o):x_1(u)$\\
 \end{minipage}
 \hfill
 \begin{minipage}{0.55\columnwidth}
-\pause $\overleftarrow{R5}(\underline{R1n})$ gives \g[0.3]{figures/pick-over-below}\\
+ $\overleftarrow{R5}(\underline{R1n})$ gives \g[0.3]{figures/pick-over-below}\\
 $L1:x_1(u):x_2(u):R1:x_2(o):R5:x_1(o)$\\
 \vfill
-\pause $\overleftarrow{R5}(\overline{R1n})$ gives \g[0.3]{figures/pick-over-above}\\
+ $\overleftarrow{R5}(\overline{R1n})$ gives \g[0.3]{figures/pick-over-above}\\
 $L1:x_1(u):x_2(u):R1:x_2(o):x_3(u):R5:x_3(o):x_1(o)$\\
 \end{minipage}\\
-\pause Observations
-\begin{itemize}[<+(1)->]
+ Observations
+\begin{itemize}
     \item A pair of crossings for each intermediate string
     \item $\overleftarrow F(s)$ and $\underleftarrow F(s)$ differ by crossing parity
     \item $F(\overline s)$ and $F(\underline s)$ differ by a twist
@@ -67,7 +68,7 @@ $L1:x_1(u):x_2(u):R1:x_2(o):x_3(u):R5:x_3(o):x_1(o)$\\
 
 \begin{frame}{\subsecname: Construction}
 General steps for applying $F(s)$ to a string figure
-\begin{itemize}[<+(1)->]
+\begin{itemize}
     \item Identify intermediate segments
     \item Insert a pair of crossings for each intermediate segment
     \item Insert $F$ at $s$ with crossings
@@ -76,8 +77,8 @@ General steps for applying $F(s)$ to a string figure
 
 % write operation
 \g[0.27]{figures/star-before}
-\uncover<3->{$\mapsto$\g[0.27]{figures/star-pick}}
-\uncover<5->{$\mapsto$\g[0.27]{figures/star-pick-twist}}
+{$\mapsto$\g[0.27]{figures/star-pick}}
+{$\mapsto$\g[0.27]{figures/star-pick-twist}}
 
 \note[item]{in this case, suppose i want to apply (WRITE) $\overset\Longleftarrow{R5}(\overline{Lp})$}
 \end{frame}

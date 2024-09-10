@@ -1,5 +1,0 @@
-\beamer@sectionintoc {1}{String Figures}{2}{0}{1}
-\beamer@sectionintoc {2}{Representation}{22}{0}{2}
-\beamer@subsectionintoc {2}{1}{Diagrams}{22}{0}{2}
-\beamer@subsectionintoc {2}{2}{Linear Sequences}{30}{0}{2}
-\beamer@subsectionintoc {2}{3}{Identifying String Segments }{42}{0}{2}
